@@ -28,6 +28,10 @@ and say farewell to all that fussing around with " and his perfectly-placed frie
 <a href="http://devil_in_the_detail.com">link to site here</a>
 
 Want a header? No wrapper needed:
+``` # H1
+## H2
+### H3
+```
 
 # H1
 ## H2
@@ -58,10 +62,10 @@ That's pretty awesome you say? Indeed it is, that is what this site is written i
 
 Resources
 
-(https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[GitHub Cheat Sheet] (https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 (https://daringfireball.net/projects/markdown/)
 
-(https://gohugo.io/content-management/formats/#learn-markdown)
+[Markdown in Hugo] (https://gohugo.io/content-management/formats/#learn-markdown)
 
-(https://www.markdowntutorial.com/lesson/1/)
+[Interactive tutorial] (https://www.markdowntutorial.com/lesson/1/)
