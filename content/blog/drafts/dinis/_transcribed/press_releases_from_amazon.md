@@ -6,7 +6,7 @@ notes:
  - edited
 ---
 
-Press Releases for Project Briefs
+## Press Releases for Project Briefs
  
 At PhotoBox Group Security, we are trying to adopt the Amazon press release model; which is a really interesting way to map projects. Traditionally, this is applied to bigger projects, and we have already used this internally for a couple. What we aim to do, in our team, is to use it across the board for much smaller projects. The key element that I like about the press release concept is the front page containing all the key information, which is then followed by a queue of FAQs. FAQs are interesting because they provide a lot of flexibility; they allow you to target specific audiences, or specific areas that you want to cover, or even specific aspects of the projects. FAQs can evolve as the project goes: from the planning phase, to execution, to completion. We will use Jira to store all this data, providing version control. 
 
@@ -17,9 +17,7 @@ When you get this right, this can be really powerful. It also scales well, a pre
 This change will involve a teething process, and the project team may need assistance for the first five or ten versions of this. Once they are familiar with the process, implementing this for the next projects will be easier, because they already have a good set of examples. 
 
 The recommendation for getting started is to take a several projects, that are already running. 
-Recall the philosophy that everything that everybody is doing, is a project? 
-Every project has: a budget, a team, resources, and information. 
-So, we are ready to on-board those projects that already exist, allowing us to go very quickly to the meat of the matter, which is writing those press releases in a way that they get consumed. 
+Recall the philosophy that everything that everybody is doing, is a project <!--- link to everything is a project article---> ? Every project has: a budget, a team, resources, and information. So, we are ready to on-board those projects that already exist, allowing us to go very quickly to the meat of the matter, which is writing those press releases in a way that they get consumed. 
 The challenge to the team is to represent the reality of the situation. They don't have to worry: "is this going to be approved"?; "is it not going to be approved?" Because, by definition, those initial set up projects, they are already approved, the resources are already allocated.
 
 The first major milestone is to reach a point of balance, where we have press releases created in a realistic, workable and usable way; representing every single current project. Yes, this number will be large, because there is a lot going on, however, this is a vital component to managing all this.
