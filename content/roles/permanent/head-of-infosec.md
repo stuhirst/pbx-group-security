@@ -10,11 +10,11 @@ apply_Link      : https://photoboxgroup.workable.com/j/307883703F
 what_will_you_do:
     - Consult, approve and/or validate existing business strategic directions and investment plans as they relate to the protection of systems and data
     - Get the big information security risk management picture including third parties, service providers, and integrating with internal control, compliance, and risk management functions
-    - Setting strategic direction
-    - Ensuring the privacy and protection of Personally Identifiable Information (PII) of customers and employees
-    - Management of IT investigations, digital forensics, e-discovery, breach response, and reaction plan responsibilities
-    - Information Risk Management standards and practical application using recognised standards (ISO, NIST, etc.)
-    - Information Security Management System (ISMS) designed to ensure comprehensive and documented assurance relevant to the organisation
+    - Set strategic direction
+    - Ensure the privacy and protection of Personally Identifiable Information (PII) of customers and employees
+    - Manage IT investigations, digital forensics, e-discovery, breach response, and reaction plan responsibilities
+    - Ensure implementation of nformation Risk Management standards and practical application using recognised standards (ISO, NIST, etc.)
+    - Manage information Security Management System (ISMS) designed to ensure comprehensive and documented assurance relevant to the organisation
     - Represent the Group as the authority for security and controls to clients and customers, partners, competitors, auditors, regulators and internal stakeholders
     - Line management of sub-teams within the group security team
     - Liaise with brands under Photobox Group to support security and compliance processes
