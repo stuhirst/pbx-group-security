@@ -1,4 +1,5 @@
 ---
+draft       : true
 title       : Write blog post from transcription
 key         : ST-BP
 area        : setup
