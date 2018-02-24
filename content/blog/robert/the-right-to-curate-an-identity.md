@@ -5,7 +5,7 @@ images      : ["/img/blog/Pbx_WarrenandBrandeis_squareRGB.png"]
 date        : "2017-12-04"
 tags        : ["GDPR", "Data Protection"]
 categories  : ["GDPR", "Data Protection"]
-author      : Robert Grace
+authors     : ["Robert Grace"]
 ---
 
 ## Warren & Brandeis: The Right to Curate an Identity

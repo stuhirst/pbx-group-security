@@ -5,7 +5,7 @@ tags        : ["GDPR", "Data Protection"]
 categories  : ["CyberSecurity"]
 banner      : /img/blog/Pbx_SummaryCybersecurityArticle_squareRGB.png
 images      : ["/img/blog/Pbx_SummaryCybersecurityArticle_squareRGB.png"]
-author      : Ann-Marie Grace
+authors     : ["Ann-Marie Grace"]
 ---
 
 ## A Summary of three articles in The International Comparative Legal Guide: Cybersecurity 2018, and their relevance to Photobox Group Security

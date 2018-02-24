@@ -7,6 +7,7 @@
          <p class="text-muted text-uppercase mb-small text-right">{{ with $author }}{{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | urlize }}/">{{ . }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
 
 
+
             <div id="post-content" class="user-edit">
               {{ .Content }}
             </div>

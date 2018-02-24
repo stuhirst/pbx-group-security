@@ -4,7 +4,7 @@ banner  : /img/blog/Photoboxgroup_wearehiringSquareRGB.png
 date    : 2017-12-11
 images  : ["/img/blog/Photoboxgroup_wearehiringSquareRGB.png"]
 authors : ["Dinis Cruz"]
-=======
+---
 
 ## How can you help with the Group Security recruitment process?
 

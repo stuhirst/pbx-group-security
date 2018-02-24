@@ -1,7 +1,7 @@
 ---
 draft  : true
 title  : New to GitHub
-author : Harrie Bickle (TW)
+authors: ["Harrie Bickle (TW)"]
 issue  : https://github.com/project-cx/pbx-group-security/issues/245
 notes:
   - draft0

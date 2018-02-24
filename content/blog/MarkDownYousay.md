@@ -1,6 +1,6 @@
 ---
 title  : "MarkDown Newbie"
-author : Harrie Bickle
+authors: ["Harrie Bickle"]
 date   : "2018-02-02"
 tags   : ["Markdown", "GitHub"]
 categories: ["HowTo"]
