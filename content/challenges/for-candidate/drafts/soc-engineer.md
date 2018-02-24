@@ -7,7 +7,7 @@ challenges:
     - ST-SA-accounts-setup.md
     - ST-SC-site-changes.md
     - ST-WB-write-blog-post.md
-    - CP-AD-adaptability.md
+#    - CP-AD-adaptability.md
     - PR-PE-programming-experience.md
 
 next-challenges:

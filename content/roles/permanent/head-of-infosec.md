@@ -1,12 +1,11 @@
 ---
-hide            : true
-title           : Head of InfoSec (new layout)
+title           : Head of InfoSec
 layout          : role
 date            : 2017-12-06
 contract_type   : Permanent
 location        : London, Paris, Valencia or Munich
 challenges_page : challenges/for-candidate/jds/head-infosec.md
-apply_Link      : https://www.linkedin.com/jobs/view/528061818
+apply_Link      : https://photoboxgroup.workable.com/j/307883703F
 
 what_will_you_do:
     - Consult, approve and/or validate existing business strategic directions and investment plans as they relate to the protection of systems and data
@@ -16,7 +15,7 @@ what_will_you_do:
     - Management of IT investigations, digital forensics, e-discovery, breach response, and reaction plan responsibilities
     - Information Risk Management standards and practical application using recognised standards (ISO, NIST, etc.)
     - Information Security Management System (ISMS) designed to ensure comprehensive and documented assurance relevant to the organisation
-    - Represent the Group as the authority for security and controls to clients and customers, partners, competitors, auditors, regulators and internal stakeholders
+    - Represent the Group as the authority for security and controls to clients, customers, partners, competitors, auditors, regulators and internal stakeholders
     - Line management of sub-teams within the group security team
     - Liaise with brands under Photobox Group to support security and compliance processes
     - Support the creation of KPIs for OKR setting
@@ -35,7 +34,6 @@ tech_stack:
     - Significant experience in multiple areas of Technology and Security (wide knowledge set required)
     - Applicants must have a valid EU work permit (we will not provide visa sponsorship)
     - We do not wish to use recruitment agencies for this role.
-
 ---
 
 As the Head of Infosec you will support the CISO with the management of the Group Security function, including all information systems related to customers, product, factory, compliance, audit, physical, and staff security.

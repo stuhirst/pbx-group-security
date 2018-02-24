@@ -8,7 +8,7 @@ skills      : PCI DSS, Compliance, Security
 
 Define your involvement with PCI/DSS;
 
- - Have you been involved in a PCI/DSS certification process
+ - Have you been involved in a PCI/DSS certification process?
  - What are your views of this standard?
     - Current version vs original versions
     - What is new/interesting in the latest version?

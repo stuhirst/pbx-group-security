@@ -7,7 +7,7 @@ Our mission is to secure the magic moments created by our customers, across all 
 3. We minimise vulnerabilities
 4. We hack ourselves first
 5. We educate and empower our internal stakeholders and developers
-6: We contribute to adding financial value
+6. We contribute to adding financial value
 
 ## Why join Photobox Group Security?
 

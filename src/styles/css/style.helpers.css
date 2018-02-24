@@ -1,0 +1,16 @@
+.row--flex .col--flex {
+  margin-bottom: 20px;
+}
+
+@media (min-width:990px){
+  .row--flex{
+    display:flex;
+    align-items:stretch;
+  }
+  .row--flex .col--flex {
+    margin-bottom: 20px;
+  }
+  .col--flex > div{
+    height:100%;
+  }
+}

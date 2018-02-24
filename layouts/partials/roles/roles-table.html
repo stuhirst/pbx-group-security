@@ -1,0 +1,24 @@
+{{ $table_title := $.Scratch.Get "roles_table_title" }}
+{{ $filter_by := $.Scratch.Get "contract_type" }}
+<h2>
+    {{ $table_title }}
+</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th width="40%">Role</th>
+        <th>Contract Type</th>
+        <th>Location</th>
+        <th>Apply</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range where .Data.Pages "Params.contract_type" $filter_by }}
+        {{ if ne .Params.hide true}}
+            <tr>
+                {{ partial "roles/contract_td.html" . }}
+            </tr>
+        {{ end}}
+    {{ end }}
+    </tbody>
+</table>

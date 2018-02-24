@@ -1,86 +1,65 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "content" }}
+<div class="row">
+    <div class="col-md-12" id="blog-post">
+        <div class="hidden-print">
+            <a href="/roles/"> back to all roles</a>
+            <hr/>
+        </div>
 
-{{ partial "css/print-fixes.html"       }}
-{{ partial "css/challenge-card.html"    }}
-{{ partial "css/card.html"              }}
-{{ partial "head.html" .                }}
-<body>
+        <table class="table">
+            <thead>
+            <tr>
+                <th> Contract Type </th>
+                <th> Location </th>
+                <th> Apply </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>{{ .Params.contract_type }}</td>
+                <td>{{ .Params.location }}</td>
+                <td>
+                    {{ if .Params.apply_link}}
+                    <a href="{{ .Params.apply_link }}">here</a>
+                    {{ end }}
+                </td>
 
-    <div id="all">
-        <header>{{ partial "nav.html" . }}</header>
-        {{ partial "breadcrumbs.html" . }}
+            </tr>
+            </tbody>
 
-        <div id="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" id="blog-post">
-                        <div class="hidden-print">
-                            <a href="/roles/"> back to all roles</a>
-                            <hr/>
-                        </div>
+        </table>
 
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th> Contract Type </th>
-                                <th> Location </th>
-                                <th> Apply </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>{{ .Params.contract_type }}</td>
-                                <td>{{ .Params.location }}</td>
-                                <td>
-                                    {{ if .Params.apply_link}}
-                                    <a href="{{ .Params.apply_link }}">here</a>
-                                    {{ end }}
-                                </td>
+        <div class="row_Parent">
+            <div class="row">
+                <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "The Role"          "value" .Content) }}</div>
+                <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "What will you do?" "value" .Params.what_will_you_do) }}</div>
 
-                            </tr>
-                            </tbody>
-
-                        </table>
-
-                        <div class="row_Parent">
-                            <div class="row">
-                                <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "The Role"          "value" .Content) }}</div>
-                                <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "What will you do?" "value" .Params.what_will_you_do) }}</div>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "Who are you?"          "value" .Params.who_are_you     ) }}</div>
-                            <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "Misc details"          "value" .Params.tech_stack      ) }}</div>
-
-                        </div>
-
-                        <div>
-                            {{ with .Site.GetPage "page" "roles/_text/_why-else.md"                 }}{{ .Content }}{{ end }}
-                            {{ with .Site.GetPage "page" "roles/_text/_why-join-pbx.md"             }}{{ .Content }}{{ end }}
-                            {{ with .Site.GetPage "page" "roles/_text/_how-to-apply_v2"  }}{{ .Content }}{{ end }}
-                        </div>
-
-                        {{ with .Site.GetPage "page" .Params.challenges_page }}
-
-                        {{ partial "challenge/challenges-details.html" .}}
-                        {{ end }}
-
-                        <div class="hidden-print">
-                            {{ if .Site.DisqusShortname }}
-                                <div id="comments">
-                                    {{ template "_internal/disqus.html" . }}
-                                </div>
-                            {{ end }}
-                        </div>
-
-                    </div>
-                </div>
             </div>
         </div>
-        {{ partial "footer.html" . }}
+        <div class="row">
+            <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "Who are you?"          "value" .Params.who_are_you     ) }}</div>
+            <div class="col-md-12">{{ partial "widgets/card.html" (dict "key" "Misc details"          "value" .Params.tech_stack      ) }}</div>
+
+        </div>
+
+        <div>
+            {{ with .Site.GetPage "page" "roles/_text/_why-else.md"                 }}{{ .Content }}{{ end }}
+            {{ with .Site.GetPage "page" "roles/_text/_why-join-pbx.md"             }}{{ .Content }}{{ end }}
+            {{ with .Site.GetPage "page" "roles/_text/_how-to-apply_v2"  }}{{ .Content }}{{ end }}
+        </div>
+        {{ with .Params.challenges_page }}
+            {{ with .Site.GetPage "page" . }}
+                {{ partial "challenge/challenges-details.html" .}}
+            {{ end }}
+        {{ end }}
+        <div class="hidden-print">
+            {{ if .Site.DisqusShortname }}
+                <div id="comments">
+                    {{ template "_internal/disqus.html" . }}
+                </div>
+            {{ end }}
+        </div>
+
     </div>
-    {{ partial "scripts.html" . }}
-    </body>
-</html>
+</div>
+{{ end }}

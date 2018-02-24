@@ -3,4 +3,4 @@ title : Challenges table
 layout: challenges-table
 ---
 
-### All Challenges (mapped by Area)
+### All Challenges (by Area)

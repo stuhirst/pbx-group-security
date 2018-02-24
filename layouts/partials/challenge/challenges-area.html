@@ -1,0 +1,44 @@
+<div class="challenge-area">
+  <div class="title">
+    {{ .Key }}
+    <span class="size hidden-print">
+      x{{ len .Pages }}
+    <span>
+  </div>
+
+  <table class="table">
+    <thead>
+      <th>Title</th>
+      <!--<th class="text-center">Used</th>-->
+      <th class="text-center">Difficulty</th>
+      <th class="text-center">key</th>
+    </thead>
+    <tbody>
+      {{ range .Pages }}
+      <tr>
+        <td>
+          <div class="hidden-print">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </div>
+          <div class="visible-print challenge-title">
+            <b>{{ .Title }}</b>
+          </div>
+        </td>
+        <td class="text-center difficulty">
+          <span class="difficulty-{{ .Params.difficulty }}">
+            {{ .Params.difficulty }}
+          </span>
+        </td>
+        <td class="text-center key">
+          <span class="size hidden-print">
+            <a href="{{ .Permalink}}">{{ .Params.Key }}</a>
+          </span>
+          <span class="size visible-print">
+            {{ .Params.Key }}
+          </span>
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div> <!-- /.challenge-area -->

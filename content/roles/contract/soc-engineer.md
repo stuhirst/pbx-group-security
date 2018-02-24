@@ -1,10 +1,11 @@
 ---
+draft           : true
 title           : SOC Engineer and Incident Response
 layout          : role
 date            : 2017-12-06
 contract_type   : Contractor
-location        : Remotely (2 to 5 days per week)
-apply_Link      :
+location        : London and Remotely (2 to 5 days per week)
+apply_Link      : mailto:project-cx@photobox.com
 
 what_will_you_do:
     - You will be responsible for initial analysis/investigation of data and the escalation and management of incidents on a day-to-day basis.
@@ -30,7 +31,7 @@ tech_stack:
 
 challenges_required:
     - ST-SA-github-and-jekyll.md
-    - CP-CB-collaboration.md
+#    - CP-CB-collaboration.md
     - PR-LE-lambda-stop-ec2.md
     - SC-VD-vulnerabilities-discovered.md
     - PR-PE-programming-experience.md
@@ -40,7 +41,7 @@ challenges_optional:
     - TE-LA-log-analysis.md
     - PR-VS-ec2-with-vuln-site.md
     - TE-DB-dashboards.md
-    - CP-PL-planning.md
+#    - CP-PL-planning.md
     - TE-DA-darktrace-alert.md
     - TE-AW-aws-root-key.md
 

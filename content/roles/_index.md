@@ -12,3 +12,9 @@ Here are some of the reasons you should join our team:
 * [How we think about Security](/blog/2017/12/17/how-we-think-about-security/)
 * [Why join Photobox Group Security](/blog/2017/12/11/why-join-photobox-group-security/)
 * [Why Challenges](/blog/2017/12/11/why-challenges/)
+
+#### For Recruiters
+
+Photobox Group is not looking to work with recruitment agencies for any permanent roles listed on this site.
+
+If you have any suitable candidates for the contract positions listed below please [email us](mailto:project-cx@photobox.com).

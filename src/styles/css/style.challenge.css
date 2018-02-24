@@ -1,0 +1,54 @@
+.challenge-area {
+  border-radius: 10px;
+  background: #FAFAFA;
+  border: 1px solid;
+  margin-bottom:20px;
+}
+.challenge-area .title {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1px;
+  color: white;
+  background-color: #8fc43e;
+  font-size: 150%;
+  text-align: center;
+}
+
+.challenge-area .title .size {
+  font-size: 9px;
+}
+
+.challenge-area .difficulty {
+  font-size: 75%;
+  vertical-align: middle;
+}
+
+.challenge-area .key {
+  font-size: 75%;
+  width: 51px;
+  vertical-align: middle;
+}
+
+.challenge-area table {
+  font-size: 100%;
+  margin-bottom: 0px;
+}
+
+.challenge-area thead {
+  font-size: 75%;
+}
+
+.challenge-area table td {
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+  border-radius: 10px;
+}
+.card-grid{
+  display: grid;
+  grid-column-gap:30px;
+  grid-row-gap:20px;
+  grid-template-columns:1fr 1fr 1fr;
+  -ms-display: grid;
+  -ms-grid-gap:30px;
+  -ms-grid-template-columns:1fr 1fr 1fr;
+}

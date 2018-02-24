@@ -1,0 +1,14 @@
+{
+    "title": {{ .Title | jsonify  }},
+    "url": {{ .Permalink | jsonify }},
+    {{ with .Params.location -}}
+    "location": {
+        {{ . | jsonify }},
+    },
+    {{ end }}
+    "what_will_you_do": [
+        {{ range $ := .Params.what_will_you_do }}
+        {{ . | jsonify }},
+        {{ end }}
+    ]
+}

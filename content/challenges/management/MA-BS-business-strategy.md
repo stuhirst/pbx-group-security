@@ -10,5 +10,5 @@ Share an anonymised cyber security and/or business strategy that you have create
 
 This should include:
 
-- resources required for delivery i.e. staff, budget, tools
-- milestones, success measures, deliverables and timescales
+- Resources required for delivery i.e. staff, budget, tools
+- Milestones, success measures, deliverables and timescales

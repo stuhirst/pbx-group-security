@@ -9,5 +9,5 @@ area        : research
 
 Write a business, technical and moral case:
 
-- for open source vs proprietary software
-- for proprietary software vs open source
+- For open source vs proprietary software
+- Fpor proprietary software vs open source

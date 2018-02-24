@@ -4,14 +4,14 @@ layout        : role
 date          : 2017-12-06
 contract_type : Permanent
 location      : London, Paris, Valencia or Munich
-apply_Link    : https://www.linkedin.com/jobs/view/547436421/
+apply_Link    : https://photoboxgroup.workable.com/j/A3CF33C915
 
 what_will_you_do:
     - Provide leadership, solution innovation, product sourcing, and vendor relationship management to deliver situational awareness
     - Lead the effort to identify, source, and integrate threat intelligence and situational awareness services
     - Function as an incident response handler, directing IT and other departments during security incidents, including evidence preservation, corrective action, and preventive actions
     - Work with CISO to develop current Incident Response function of the organisation, assisting the security team during a security incident situation
-    - Accept escalations from and act as subject matter expert for security operations, vulnerability management, and threat intelligence teams as items transition to incident response
+    - Accept escalations from, and act as subject matter expert for: security operations, vulnerability management, and threat intelligence teams as items transition to incident response
     - Support research and analysis to provide internally approved and provisioned cyberspace situational awareness capabilities
     - Focus on the technical challenges inherent in integrating new systems, components, facilities, and applications
 

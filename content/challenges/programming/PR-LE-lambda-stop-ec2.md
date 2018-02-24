@@ -6,7 +6,7 @@ difficulty  : hard
 skills      : AWS, Logs, Programming, Analysis
 ---
 
-Create Lambda function to;
+Create Lambda functions to:
 
 - Show a list of running instances (all regions and metadata)
 - Stop EC2 instances that have not been accessed for a period of time or have a low CPU usage

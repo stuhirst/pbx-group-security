@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1792"
+   height="1063"
+   viewBox="-992 -32 1792 1063"
+   id="ccdiagram"
+   sodipodi:docname="Hugo WebSite generation from Github.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:export-filename="/home/fzipi/Workspace/PhotoBox/pbx-group-security/src/images/blog/github-repo-flow.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata796">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview794"
+     showgrid="false"
+     inkscape:zoom="1.0606602"
+     inkscape:cx="738.37525"
+     inkscape:cy="531.5"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ccdiagram" />
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="style2">@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');</style>
+  </defs>
+  <g
+     id="g791">
+    <filter
+       id="dropshadow"
+       height="130%">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         id="feGaussianBlur6" />
+      <feOffset
+         dx="3"
+         dy="6"
+         result="offsetblur"
+         id="feOffset8" />
+      <feComponentTransfer
+         id="feComponentTransfer12">
+        <feFuncA
+           type="linear"
+           slope="0.4"
+           id="feFuncA10" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge18">
+        <feMergeNode
+           id="feMergeNode14" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode16" />
+      </feMerge>
+    </filter>
+    <g
+       id="g789">
+      <g
+         style="pointer-events:none"
+         id="g79">
+        <line
+           x1="32"
+           y1="19"
+           x2="-928"
+           y2="574"
+           stroke="#eee"
+           stroke-width="1"
+           id="line21" />
+        <line
+           x1="96"
+           y1="56"
+           x2="-864"
+           y2="611"
+           stroke="#eee"
+           stroke-width="1"
+           id="line23" />
+        <line
+           x1="160"
+           y1="93"
+           x2="-800"
+           y2="648"
+           stroke="#eee"
+           stroke-width="1"
+           id="line25" />
+        <line
+           x1="224"
+           y1="130"
+           x2="-736"
+           y2="685"
+           stroke="#eee"
+           stroke-width="1"
+           id="line27" />
+        <line
+           x1="288"
+           y1="167"
+           x2="-672"
+           y2="722"
+           stroke="#eee"
+           stroke-width="1"
+           id="line29" />
+        <line
+           x1="352"
+           y1="204"
+           x2="-608"
+           y2="759"
+           stroke="#eee"
+           stroke-width="1"
+           id="line31" />
+        <line
+           x1="416"
+           y1="241"
+           x2="-544"
+           y2="796"
+           stroke="#eee"
+           stroke-width="1"
+           id="line33" />
+        <line
+           x1="480"
+           y1="278"
+           x2="-480"
+           y2="833"
+           stroke="#eee"
+           stroke-width="1"
+           id="line35" />
+        <line
+           x1="544"
+           y1="315"
+           x2="-416"
+           y2="870"
+           stroke="#eee"
+           stroke-width="1"
+           id="line37" />
+        <line
+           x1="608"
+           y1="352"
+           x2="-352"
+           y2="907"
+           stroke="#eee"
+           stroke-width="1"
+           id="line39" />
+        <line
+           x1="672"
+           y1="389"
+           x2="-288"
+           y2="944"
+           stroke="#eee"
+           stroke-width="1"
+           id="line41" />
+        <line
+           x1="736"
+           y1="426"
+           x2="-224"
+           y2="981"
+           stroke="#eee"
+           stroke-width="1"
+           id="line43" />
+        <line
+           x1="-32"
+           y1="19"
+           x2="736"
+           y2="463"
+           stroke="#eee"
+           stroke-width="1"
+           id="line45" />
+        <line
+           x1="-96"
+           y1="56"
+           x2="672"
+           y2="500"
+           stroke="#eee"
+           stroke-width="1"
+           id="line47" />
+        <line
+           x1="-160"
+           y1="93"
+           x2="608"
+           y2="537"
+           stroke="#eee"
+           stroke-width="1"
+           id="line49" />
+        <line
+           x1="-224"
+           y1="130"
+           x2="544"
+           y2="574"
+           stroke="#eee"
+           stroke-width="1"
+           id="line51" />
+        <line
+           x1="-288"
+           y1="167"
+           x2="480"
+           y2="611"
+           stroke="#eee"
+           stroke-width="1"
+           id="line53" />
+        <line
+           x1="-352"
+           y1="204"
+           x2="416"
+           y2="648"
+           stroke="#eee"
+           stroke-width="1"
+           id="line55" />
+        <line
+           x1="-416"
+           y1="241"
+           x2="352"
+           y2="685"
+           stroke="#eee"
+           stroke-width="1"
+           id="line57" />
+        <line
+           x1="-480"
+           y1="278"
+           x2="288"
+           y2="722"
+           stroke="#eee"
+           stroke-width="1"
+           id="line59" />
+        <line
+           x1="-544"
+           y1="315"
+           x2="224"
+           y2="759"
+           stroke="#eee"
+           stroke-width="1"
+           id="line61" />
+        <line
+           x1="-608"
+           y1="352"
+           x2="160"
+           y2="796"
+           stroke="#eee"
+           stroke-width="1"
+           id="line63" />
+        <line
+           x1="-672"
+           y1="389"
+           x2="96"
+           y2="833"
+           stroke="#eee"
+           stroke-width="1"
+           id="line65" />
+        <line
+           x1="-736"
+           y1="426"
+           x2="32"
+           y2="870"
+           stroke="#eee"
+           stroke-width="1"
+           id="line67" />
+        <line
+           x1="-800"
+           y1="463"
+           x2="-32"
+           y2="907"
+           stroke="#eee"
+           stroke-width="1"
+           id="line69" />
+        <line
+           x1="-864"
+           y1="500"
+           x2="-96"
+           y2="944"
+           stroke="#eee"
+           stroke-width="1"
+           id="line71" />
+        <line
+           x1="-928"
+           y1="537"
+           x2="-160"
+           y2="981"
+           stroke="#eee"
+           stroke-width="1"
+           id="line73" />
+        <polygon
+           points="-960 555, -960 565, -192 1009, -192 999"
+           stroke-linejoin="round"
+           stroke="#54626f"
+           stroke-width="1"
+           fill="#f9f9f9"
+           id="polygon75" />
+        <polygon
+           points="-192 1009, 768 454, 768 444, -192 999"
+           stroke-linejoin="round"
+           stroke="#54626f"
+           stroke-width="1"
+           fill="#e2e2e2"
+           id="polygon77" />
+      </g>
+      <g
+         pointer-events=""
+         id="g81" />
+      <g
+         style="pointer-events:none"
+         id="g141">
+        <line
+           x1="0"
+           y1="0"
+           x2="-960"
+           y2="555"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line83" />
+        <line
+           x1="64"
+           y1="37"
+           x2="-896"
+           y2="592"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line85" />
+        <line
+           x1="128"
+           y1="74"
+           x2="-832"
+           y2="629"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line87" />
+        <line
+           x1="192"
+           y1="111"
+           x2="-768"
+           y2="666"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line89" />
+        <line
+           x1="256"
+           y1="148"
+           x2="-704"
+           y2="703"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line91" />
+        <line
+           x1="320"
+           y1="185"
+           x2="-640"
+           y2="740"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line93" />
+        <line
+           x1="384"
+           y1="222"
+           x2="-576"
+           y2="777"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line95" />
+        <line
+           x1="448"
+           y1="259"
+           x2="-512"
+           y2="814"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line97" />
+        <line
+           x1="512"
+           y1="296"
+           x2="-448"
+           y2="851"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line99" />
+        <line
+           x1="576"
+           y1="333"
+           x2="-384"
+           y2="888"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line101" />
+        <line
+           x1="640"
+           y1="370"
+           x2="-320"
+           y2="925"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line103" />
+        <line
+           x1="704"
+           y1="407"
+           x2="-256"
+           y2="962"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line105" />
+        <line
+           x1="768"
+           y1="444"
+           x2="-192"
+           y2="999"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line107" />
+        <line
+           x1="0"
+           y1="0"
+           x2="768"
+           y2="444"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line109" />
+        <line
+           x1="-64"
+           y1="37"
+           x2="704"
+           y2="481"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line111" />
+        <line
+           x1="-128"
+           y1="74"
+           x2="640"
+           y2="518"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line113" />
+        <line
+           x1="-192"
+           y1="111"
+           x2="576"
+           y2="555"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line115" />
+        <line
+           x1="-256"
+           y1="148"
+           x2="512"
+           y2="592"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line117" />
+        <line
+           x1="-320"
+           y1="185"
+           x2="448"
+           y2="629"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line119" />
+        <line
+           x1="-384"
+           y1="222"
+           x2="384"
+           y2="666"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line121" />
+        <line
+           x1="-448"
+           y1="259"
+           x2="320"
+           y2="703"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line123" />
+        <line
+           x1="-512"
+           y1="296"
+           x2="256"
+           y2="740"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line125" />
+        <line
+           x1="-576"
+           y1="333"
+           x2="192"
+           y2="777"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line127" />
+        <line
+           x1="-640"
+           y1="370"
+           x2="128"
+           y2="814"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line129" />
+        <line
+           x1="-704"
+           y1="407"
+           x2="64"
+           y2="851"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line131" />
+        <line
+           x1="-768"
+           y1="444"
+           x2="0"
+           y2="888"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line133" />
+        <line
+           x1="-832"
+           y1="481"
+           x2="-64"
+           y2="925"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line135" />
+        <line
+           x1="-896"
+           y1="518"
+           x2="-128"
+           y2="962"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line137" />
+        <line
+           x1="-960"
+           y1="555"
+           x2="-192"
+           y2="999"
+           stroke="#54626f"
+           stroke-width="1"
+           id="line139" />
+      </g>
+      <g
+         pointer-events=""
+         id="g143" />
+      <g
+         pointer-events=""
+         id="g237">
+        <g
+           id="g153">
+          <g
+             id="g151">
+            <line
+               x1="-496"
+               y1="416"
+               x2="-45"
+               y2="156"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line145" />
+            <line
+               x1="-496"
+               y1="416"
+               x2="-45"
+               y2="156"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line147" />
+            <polygon
+               points="-35 150, -61 155, -48 157, -45 165, -35 150"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon149" />
+          </g>
+        </g>
+        <g
+           id="g161">
+          <g
+             id="g159">
+            <line
+               x1="0"
+               y1="130"
+               x2="-192"
+               y2="333"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line155" />
+            <line
+               x1="0"
+               y1="130"
+               x2="-192"
+               y2="333"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line157" />
+          </g>
+        </g>
+        <g
+           id="g171">
+          <g
+             id="g169">
+            <line
+               x1="-316"
+               y1="682"
+               x2="-125"
+               y2="572"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line163" />
+            <line
+               x1="-316"
+               y1="682"
+               x2="-125"
+               y2="572"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line165" />
+            <polygon
+               points="-115 566, -141 572, -128 573, -125 581, -115 566"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon167" />
+          </g>
+        </g>
+        <g
+           id="g179">
+          <g
+             id="g177">
+            <line
+               x1="-192"
+               y1="333"
+               x2="-464"
+               y2="435"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line173" />
+            <line
+               x1="-192"
+               y1="333"
+               x2="-464"
+               y2="435"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line175" />
+          </g>
+        </g>
+        <g
+           id="g187">
+          <g
+             id="g185">
+            <line
+               x1="0"
+               y1="130"
+               x2="320"
+               y2="315"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line181" />
+            <line
+               x1="0"
+               y1="130"
+               x2="320"
+               y2="315"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line183" />
+          </g>
+        </g>
+        <g
+           id="g197">
+          <g
+             id="g195">
+            <line
+               x1="0"
+               y1="130"
+               x2="-44"
+               y2="517"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line189" />
+            <line
+               x1="0"
+               y1="130"
+               x2="-44"
+               y2="517"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line191" />
+            <polygon
+               points="-45 525, -32 512, -43 515, -54 511, -45 525"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon193" />
+          </g>
+        </g>
+        <g
+           id="g207">
+          <g
+             id="g205">
+            <line
+               x1="-464"
+               y1="435"
+               x2="-467"
+               y2="408"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line199" />
+            <line
+               x1="-464"
+               y1="435"
+               x2="-467"
+               y2="408"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line201" />
+            <polygon
+               points="-468 400, -478 414, -467 410, -455 414, -468 400"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon203" />
+          </g>
+        </g>
+        <g
+           id="g215">
+          <g
+             id="g213">
+            <line
+               x1="115"
+               y1="433"
+               x2="-80"
+               y2="546"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line209" />
+            <line
+               x1="115"
+               y1="433"
+               x2="-80"
+               y2="546"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line211" />
+          </g>
+        </g>
+        <g
+           id="g225">
+          <g
+             id="g223">
+            <line
+               x1="320"
+               y1="315"
+               x2="170"
+               y2="401"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line217" />
+            <line
+               x1="320"
+               y1="315"
+               x2="170"
+               y2="401"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line219" />
+            <polygon
+               points="160 407, 186 402, 172 400, 169 392, 160 407"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon221" />
+          </g>
+        </g>
+        <g
+           id="g235">
+          <g
+             id="g233">
+            <line
+               x1="-636"
+               y1="497"
+               x2="-534"
+               y2="438"
+               stroke="red"
+               stroke-width="8"
+               opacity="0"
+               id="line227" />
+            <line
+               x1="-636"
+               y1="497"
+               x2="-534"
+               y2="438"
+               stroke="#000000"
+               stroke-width="2"
+               stroke-linecap="round"
+               id="line229" />
+            <polygon
+               points="-524 433, -550 438, -537 440, -534 447, -524 433"
+               stroke-linejoin="round"
+               fill="#000000"
+               stroke="#000000"
+               stroke-width="1"
+               id="polygon231" />
+          </g>
+        </g>
+      </g>
+      <g
+         pointer-events=""
+         id="g275">
+        <g
+           id="g257">
+          <g
+             transform="translate(0 0)"
+             id="g255">
+            <svg
+               x="77"
+               y="324"
+               height="115.695"
+               width="100.625"
+               viewBox="0 0 26.623829 30.611019"
+               version="1.1"
+               id="svg253">
+              <path
+                 d="M13.312.306v15l12.99-7.5z"
+                 fill="#4286c5"
+                 fill-rule="evenodd"
+                 id="path239" />
+              <path
+                 d="M.322 7.806l12.99 7.5v-15z"
+                 fill="#26527b"
+                 fill-rule="evenodd"
+                 id="path241" />
+              <path
+                 d="M13.312.306v15"
+                 fill="none"
+                 stroke="#318bce"
+                 stroke-width=".265"
+                 id="path243" />
+              <path
+                 d="M13.312 15.306l12.99-7.5-6.495 18.75-6.495 3.75z"
+                 fill="#26527b"
+                 fill-rule="evenodd"
+                 id="path245" />
+              <path
+                 d="M.322 7.806l12.99 7.5v15l-6.495-3.75z"
+                 fill="#326ca2"
+                 fill-rule="evenodd"
+                 id="path247" />
+              <path
+                 d="M.322 7.806l12.99 7.5 12.99-7.5-12.99 7.5v15"
+                 fill="none"
+                 stroke="#5aa2d8"
+                 stroke-width=".265"
+                 id="path249" />
+              <path
+                 d="M13.312.306l-12.99 7.5 6.495 18.75 6.495 3.75 6.495-3.75 6.495-18.75z"
+                 fill="none"
+                 stroke="#000000"
+                 stroke-width=".529"
+                 id="path251" />
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g265">
+          <g
+             transform="translate(0 0)"
+             id="g263">
+            <svg
+               x="-696"
+               y="432"
+               height="95.068"
+               width="63"
+               viewBox="0 0 16.668756 25.153389"
+               version="1.1"
+               id="svg261">
+              <path
+                 d="M16.668 22.903q0 1.64-.864 2.091-.865.451-2.297-.376L3.161 18.645q-1.433-.827-2.297-2.276Q.001 14.921 0 13.28q0-.723.042-1.39.042-.666.166-1.394.124-.727.313-1.302.19-.575.51-1.039.319-.464.733-.683.414-.22 1.012-.147.598.073 1.32.49.107.06.497.58.391.52.882 1.165.491.646 1.279 1.394.788.75 1.58 1.207.793.458 1.58.618.788.161 1.28.083.49-.079.881-.147.39-.069.497-.007.722.416 1.32 1.035.598.619 1.013 1.315.414.697.734 1.531t.509 1.627q.19.793.313 1.664.124.872.166 1.586.042.713.042 1.438zM12.88 8.51q0 2.173-1.332 2.942-1.332.769-3.214-.318-1.882-1.086-3.214-3.393Q3.79 5.434 3.79 3.26q0-2.173 1.331-2.942 1.332-.77 3.214.317t3.214 3.394q1.332 2.306 1.332 4.48z"
+                 fill="#444"
+                 id="path259" />
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g273">
+          <g
+             transform="translate(0 0)"
+             id="g271">
+            <svg
+               x="-376"
+               y="617"
+               height="95.068"
+               width="63"
+               viewBox="0 0 16.668756 25.153389"
+               version="1.1"
+               id="svg269">
+              <path
+                 d="M16.668 22.903q0 1.64-.864 2.091-.865.451-2.297-.376L3.161 18.645q-1.433-.827-2.297-2.276Q.001 14.921 0 13.28q0-.723.042-1.39.042-.666.166-1.394.124-.727.313-1.302.19-.575.51-1.039.319-.464.733-.683.414-.22 1.012-.147.598.073 1.32.49.107.06.497.58.391.52.882 1.165.491.646 1.279 1.394.788.75 1.58 1.207.793.458 1.58.618.788.161 1.28.083.49-.079.881-.147.39-.069.497-.007.722.416 1.32 1.035.598.619 1.013 1.315.414.697.734 1.531t.509 1.627q.19.793.313 1.664.124.872.166 1.586.042.713.042 1.438zM12.88 8.51q0 2.173-1.332 2.942-1.332.769-3.214-.318-1.882-1.086-3.214-3.393Q3.79 5.434 3.79 3.26q0-2.173 1.331-2.942 1.332-.77 3.214.317t3.214 3.394q1.332 2.306 1.332 4.48z"
+                 fill="#444"
+                 id="path267" />
+            </svg>
+          </g>
+        </g>
+      </g>
+      <g
+         pointer-events=""
+         id="g277" />
+      <g
+         pointer-events=""
+         id="g423">
+        <g
+           id="g293">
+          <g
+             transform="translate(0 0)"
+             id="g291">
+            <svg
+               x="-496"
+               y="416"
+               overflow="visible"
+               version="1.1"
+               id="svg289">
+              <g
+                 transform="scale(1.7469281074217107) matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="g287">
+                <circle
+                   cx="0"
+                   cy="0"
+                   fill="#000000"
+                   r="23"
+                   id="circle279" />
+                <svg
+                   width="27"
+                   height="32"
+                   x="-13.5"
+                   y="-16"
+                   style="fill:#ffffff"
+                   version="1.1"
+                   id="svg285">
+                  <svg
+                     width="27"
+                     height="32"
+                     viewBox="0 0 27 32"
+                     version="1.1"
+                     id="svg283">
+                    <path
+                       d="M13.714 2.286c7.571 0 13.714 6.143 13.714 13.714 0 6.054-3.929 11.196-9.375 13.018-.696.125-.946-.304-.946-.661 0-.446.018-1.929.018-3.768 0-1.286-.429-2.107-.929-2.536 3.054-.339 6.268-1.5 6.268-6.768 0-1.5-.536-2.714-1.411-3.679.143-.357.607-1.75-.143-3.643-1.143-.357-3.768 1.411-3.768 1.411a12.895 12.895 0 0 0-6.858 0S7.659 7.606 6.516 7.963c-.75 1.893-.286 3.286-.143 3.643-.875.964-1.411 2.179-1.411 3.679 0 5.25 3.196 6.429 6.25 6.768-.393.357-.75.964-.875 1.839-.786.357-2.786.964-3.982-1.143-.75-1.304-2.107-1.411-2.107-1.411-1.339-.018-.089.839-.089.839.893.411 1.518 2 1.518 2 .804 2.446 4.625 1.625 4.625 1.625 0 1.143.018 2.214.018 2.554 0 .357-.25.786-.946.661-5.446-1.821-9.375-6.964-9.375-13.018 0-7.571 6.143-13.714 13.714-13.714zM5.196 21.982c.036-.071-.018-.161-.125-.214-.107-.036-.196-.018-.232.036-.036.071.018.161.125.214.089.054.196.036.232-.036zm.554.607c.071-.054.054-.179-.036-.286-.089-.089-.214-.125-.286-.054-.071.054-.054.179.036.286.089.089.214.125.286.054zm.536.804c.089-.071.089-.214 0-.339-.071-.125-.214-.179-.304-.107-.089.054-.089.196 0 .321s.232.179.304.125zm.75.75c.071-.071.036-.232-.071-.339-.125-.125-.286-.143-.357-.054-.089.071-.054.232.071.339.125.125.286.143.357.054zm1.018.446c.036-.107-.071-.232-.232-.286-.143-.036-.304.018-.339.125s.071.232.232.268c.143.054.304 0 .339-.107zm1.125.09c0-.125-.143-.214-.304-.196-.161 0-.286.089-.286.196 0 .125.125.214.304.196.161 0 .286-.089.286-.196zm1.035-.179c-.018-.107-.161-.179-.321-.161-.161.036-.268.143-.25.268.018.107.161.179.321.143s.268-.143.25-.25z"
+                       id="path281" />
+                  </svg>
+                </svg>
+              </g>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g335">
+          <g
+             transform="translate(0 0)"
+             id="g333">
+            <svg
+               x="-80"
+               y="546"
+               overflow="visible"
+               version="1.1"
+               id="svg331">
+              <g
+                 transform=" "
+                 id="g329">
+                <svg
+                   width="100"
+                   height="100"
+                   x="-50"
+                   y="-50"
+                   style="fill:#ffffff"
+                   version="1.1"
+                   id="svg327">
+                  <svg
+                     data-name="Layer 1"
+                     width="100"
+                     height="100"
+                     viewBox="0 0 100 100"
+                     version="1.1"
+                     id="svg325">
+                    <path
+                       fill="#fbbf93"
+                       d="M39.74 56.97L24.12 77.94l-8.18-20.93 14.92-.91 8.88.87zM60.1 56.97l15.78 21.09 8.02-21.03-14.76-.93-9.04.87z"
+                       id="path295" />
+                    <path
+                       fill="#6b3a19"
+                       d="M39.74 42.97L24.12 21.94l-8.18 21.05 15.05.9 8.75-.92zM60.1 42.97l15.78-21.03 8.18 21.05-14.92.91-9.04-.93z"
+                       id="path297" />
+                    <path
+                       fill="#9d5025"
+                       d="M60.1 42.97l15.78-1.17V21.94L60.1 26.02v16.95z"
+                       id="path299" />
+                    <path
+                       fill="#f58536"
+                       d="M84.06 42.99l-8.18-1.19V21.94l8.18 4.09v16.96z"
+                       id="path301" />
+                    <path
+                       fill="#9d5025"
+                       d="M60.1 56.97l15.78 1.23v19.86L60.1 73.92V56.97z"
+                       id="path303" />
+                    <path
+                       fill="#f58536"
+                       d="M83.9 57.03l-8.02 1.17v19.86l8.02-4.01V57.03zM39.74 42.97L24.12 41.8V21.94l15.62 4.08v16.95z"
+                       id="path305" />
+                    <path
+                       fill="#9d5025"
+                       d="M15.94 42.99l8.18-1.19V21.94l-8.18 4.09v16.96z"
+                       id="path307" />
+                    <path
+                       fill="#f58536"
+                       d="M39.74 56.97L24.12 58.2v19.86l15.62-4.14V56.97z"
+                       id="path309" />
+                    <path
+                       fill="#9d5025"
+                       d="M15.94 57.01l8.18 1.19v19.86l-8.18-4.09V57.01z"
+                       id="path311" />
+                    <path
+                       fill="#fbbf93"
+                       d="M66.26 59.59L50 57.98l-16.42 1.59L50 91l16.26-31.41z"
+                       id="path313" />
+                    <path
+                       fill="#6b3a19"
+                       d="M66.26 40.41L50 42.02l-16.42-1.59L50 9l16.26 31.41z"
+                       id="path315" />
+                    <path
+                       fill="#f58536"
+                       d="M66.26 40.41L50 38.05V9l16.26 8.13v23.28z"
+                       id="path317" />
+                    <path
+                       fill="#9d5025"
+                       d="M33.58 40.43L50 38.05V9l-16.42 8.21v23.22z"
+                       id="path319" />
+                    <path
+                       fill="#f58536"
+                       d="M66.26 59.59L50 61.95V91l16.26-8.13V59.59z"
+                       id="path321" />
+                    <path
+                       fill="#9d5025"
+                       d="M33.58 59.57L50 61.95V91l-16.42-8.21V59.57z"
+                       id="path323" />
+                  </svg>
+                </svg>
+              </g>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g351">
+          <g
+             transform="translate(0 0)"
+             id="g349">
+            <svg
+               x="-704"
+               y="536"
+               overflow="visible"
+               version="1.1"
+               id="svg347">
+              <g
+                 transform="scale(1.7469281074217107) matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="g345">
+                <circle
+                   cx="0"
+                   cy="0"
+                   fill="#ffffff"
+                   r="24"
+                   id="circle337" />
+                <svg
+                   width="34"
+                   height="32"
+                   x="-17"
+                   y="-16"
+                   style="fill:#000000"
+                   version="1.1"
+                   id="svg343">
+                  <svg
+                     width="34"
+                     height="32"
+                     viewBox="0 0 34 32"
+                     version="1.1"
+                     id="svg341">
+                    <path
+                       d="M32 17.714V2.857a.587.587 0 0 0-.571-.571H2.858a.587.587 0 0 0-.571.571v14.857c0 .304.268.571.571.571h28.571a.587.587 0 0 0 .571-.571zm2.286-14.857v19.429a2.866 2.866 0 0 1-2.857 2.857h-9.714c0 1.518 1.143 2.804 1.143 3.429s-.518 1.143-1.143 1.143h-9.143a1.151 1.151 0 0 1-1.143-1.143c0-.661 1.143-1.875 1.143-3.429H2.858a2.866 2.866 0 0 1-2.857-2.857V2.857A2.866 2.866 0 0 1 2.858 0h28.571a2.866 2.866 0 0 1 2.857 2.857z"
+                       id="path339" />
+                  </svg>
+                </svg>
+              </g>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g367">
+          <g
+             transform="translate(0 0)"
+             id="g365">
+            <svg
+               x="-384"
+               y="722"
+               overflow="visible"
+               version="1.1"
+               id="svg363">
+              <g
+                 transform="scale(1.7469281074217107) matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="g361">
+                <circle
+                   cx="0"
+                   cy="0"
+                   fill="#ffffff"
+                   r="24"
+                   id="circle353" />
+                <svg
+                   width="34"
+                   height="32"
+                   x="-17"
+                   y="-16"
+                   style="fill:#000000"
+                   version="1.1"
+                   id="svg359">
+                  <svg
+                     width="34"
+                     height="32"
+                     viewBox="0 0 34 32"
+                     version="1.1"
+                     id="svg357">
+                    <path
+                       d="M32 17.714V2.857a.587.587 0 0 0-.571-.571H2.858a.587.587 0 0 0-.571.571v14.857c0 .304.268.571.571.571h28.571a.587.587 0 0 0 .571-.571zm2.286-14.857v19.429a2.866 2.866 0 0 1-2.857 2.857h-9.714c0 1.518 1.143 2.804 1.143 3.429s-.518 1.143-1.143 1.143h-9.143a1.151 1.151 0 0 1-1.143-1.143c0-.661 1.143-1.875 1.143-3.429H2.858a2.866 2.866 0 0 1-2.857-2.857V2.857A2.866 2.866 0 0 1 2.858 0h28.571a2.866 2.866 0 0 1 2.857 2.857z"
+                       id="path355" />
+                  </svg>
+                </svg>
+              </g>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g421">
+          <g
+             transform="translate(0 0)"
+             id="g419">
+            <svg
+               x="0"
+               y="130"
+               overflow="visible"
+               version="1.1"
+               id="svg417">
+              <g
+                 transform=" "
+                 id="g415">
+                <svg
+                   width="100"
+                   height="100"
+                   x="-50"
+                   y="-50"
+                   style="fill:#ffffff"
+                   version="1.1"
+                   id="svg413">
+                  <svg
+                     data-name="Layer 1"
+                     width="100"
+                     height="100"
+                     viewBox="0 0 100 100"
+                     version="1.1"
+                     id="svg411">
+                    <path
+                       fill="#b7ca9d"
+                       d="M29.62 60.37l-4.89-.83-8.68.77 4.27 15.1 9.3-15.04z"
+                       id="path369" />
+                    <path
+                       fill="#4b612c"
+                       d="M16.05 43.13v13.71l4.39.63L29 50.43l-8.56-7.92-4.39.62z"
+                       id="path371" />
+                    <path
+                       fill="#759c3e"
+                       d="M20.44 61.3l9.18-.93v13.74l-9.18.66-3.54-7.16 3.54-6.31z"
+                       id="path373" />
+                    <path
+                       fill="#3c4929"
+                       d="M24.85 40.47l4.77-.8-9.18-15.22-4.39 15.24 8.8.78z"
+                       id="path375" />
+                    <path
+                       fill="#759c3e"
+                       d="M20.44 23.77l9.18 2.16v13.74l-9.18-.92V23.77zM20.44 42.54l9.18.61V56.9l-9.18.62V42.54z"
+                       id="path377" />
+                    <path
+                       fill="#3c4929"
+                       d="M29.62 35.59l7.02-1.64-9.62-13.13-6.58 13.48 9.18 1.29z"
+                       id="path379" />
+                    <path
+                       fill="#759c3e"
+                       d="M27.02 20.5l9.62 2.7v10.75l-9.62-1.62V20.5z"
+                       id="path381" />
+                    <path
+                       fill="#b7ca9d"
+                       d="M36.64 66.03l-7-1.64-9.2 1.3 6.58 13.86 9.62-13.52z"
+                       id="path383" />
+                    <path
+                       fill="#759c3e"
+                       d="M27.02 67.67l9.62-1.62v10.79l-9.62 2.71-8.7-6.75 8.7-5.13z"
+                       id="path385" />
+                    <path
+                       fill="#3c4929"
+                       d="M83.88 39.68l-8.8.78-11.73-1.96 9.56-18.04 10.97 19.22z"
+                       id="path387" />
+                    <path
+                       fill="#4b612c"
+                       d="M20.44 65.69v-4.43l-4.39-.95v13.71l10.97 5.49V67.66l-6.58-1.97z"
+                       id="path389" />
+                    <path
+                       fill="#b7ca9d"
+                       d="M83.9 60.32l-8.8-.78-11.75 1.97 9.56 17.67L83.9 60.32z"
+                       id="path391" />
+                    <path
+                       fill="#4b612c"
+                       d="M72.91 20.46l-9.56 2.69V38.5l9.56-1.15 10.4-6.28-10.4-10.61zM72.91 41.47l-9.56.78V57.6l9.56.76 10.4-8.08-10.4-8.81zM72.91 62.73l-9.56-1.16v15.35l9.56 2.7 9.62-10.97-9.62-5.92z"
+                       id="path393" />
+                    <path
+                       fill="#3c4929"
+                       d="M39.91 16.05l-9.61 15.3 9.78 1.79 9.91-2.31-10.08-14.78z"
+                       id="path395" />
+                    <path
+                       fill="#3c4929"
+                       d="M69.64 36.63l-9.79 1.28-19.94-3.34L49.99 9.1l19.65 27.53z"
+                       id="path397" />
+                    <path
+                       fill="#4b612c"
+                       d="M49.99 61.68l18.87-11.65-18.87-11.74-10.08 1.44v20.52l10.08 1.43z"
+                       id="path399" />
+                    <path
+                       fill="#759c3e"
+                       d="M49.99 38.29v23.39l19.65-2.8V41.09l-19.65-2.8z"
+                       id="path401" />
+                    <path
+                       fill="#b7ca9d"
+                       d="M69.64 63.38l-9.79-1.29-19.94 3.35 10.08 25.55 19.65-27.61z"
+                       id="path403" />
+                    <path
+                       fill="#b7ca9d"
+                       d="M49.93 69.14l-9.78-2.29-9.81 1.8 9.2 16.73 10.39-16.24z"
+                       id="path405" />
+                    <path
+                       fill="#4b612c"
+                       d="M30.29 68.64v12.51L49.99 91l18.37-18.2-18.37-5.19-10.08-2.17v6.08l-9.62-2.88zM27.02 32.33V20.5l-10.97 5.48v13.71l4.39-.94V34.3l6.58-1.97zM39.91 28.47v6.1l10.08-2.16 18.14-5.19-18.14-18.2-19.7 9.84v12.49l9.62-2.88z"
+                       id="path407" />
+                    <path
+                       fill="#759c3e"
+                       d="M49.99 9v23.41l19.65 4.22V18.82L49.99 9zM83.95 39.7V25.98l-11.04-5.52v16.87l11.04 2.37zM83.95 56.84v-13.7l-11.04-1.58v16.86l11.04-1.58zM49.99 67.61v23.38l19.65-9.83V63.38l-19.65 4.23zM83.95 74.01v-13.7l-11.04 2.37v16.85l11.04-5.52z"
+                       id="path409" />
+                  </svg>
+                </svg>
+              </g>
+            </svg>
+          </g>
+        </g>
+      </g>
+      <g
+         pointer-events=""
+         id="g787">
+        <g
+           id="g437">
+          <g
+             transform="translate(0 0)"
+             id="g435">
+            <svg
+               x="-800"
+               y="537"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg433">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text427">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan425">PBX Repo</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text431">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan429">PBX Repo</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g451">
+          <g
+             transform="translate(0 0)"
+             id="g449">
+            <svg
+               x="224"
+               y="389"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg447">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text441">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan439">Amazon</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text445">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan443">Amazon</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g465">
+          <g
+             transform="translate(0 0)"
+             id="g463">
+            <svg
+               x="208"
+               y="398"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg461">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text455">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan453">S3</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text459">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan457">S3</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g483">
+          <g
+             transform="translate(0 0)"
+             id="g481">
+            <svg
+               x="176"
+               y="176"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg479">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text471">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan467">Generates page with</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan469">static HTML &amp; CSS</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text477">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan473">Generates page with</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan475">static HTML &amp; CSS</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g497">
+          <g
+             transform="translate(0 0)"
+             id="g495">
+            <svg
+               x="-784"
+               y="527"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg493">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text487">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan485">Github</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text491">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan489">Github</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g511">
+          <g
+             transform="translate(0 0)"
+             id="g509">
+            <svg
+               x="-576"
+               y="463"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg507">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text501">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan499">User commits</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text505">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan503">User commits</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g525">
+          <g
+             transform="translate(0 0)"
+             id="g523">
+            <svg
+               x="208"
+               y="157"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg521">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text515">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan513">hugo build</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text519">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan517">hugo build</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g543">
+          <g
+             transform="translate(0 0)"
+             id="g541">
+            <svg
+               x="272"
+               y="379"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg539">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text531">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan527">Saves output pages</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan529">in S3 bucket</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text537">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan533">Saves output pages</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan535">in S3 bucket</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g557">
+          <g
+             transform="translate(0 0)"
+             id="g555">
+            <svg
+               x="-112"
+               y="472"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg553">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text547">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan545">Refresh cache</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text551">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan549">Refresh cache</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g571">
+          <g
+             transform="translate(0 0)"
+             id="g569">
+            <svg
+               x="-32"
+               y="574"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg567">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text561">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan559">Amazon</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text565">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan563">Amazon</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g585">
+          <g
+             transform="translate(0 0)"
+             id="g583">
+            <svg
+               x="-48"
+               y="583"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg581">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text575">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan573">CloudFront</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text579">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan577">CloudFront</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g599">
+          <g
+             transform="translate(0 0)"
+             id="g597">
+            <svg
+               x="0"
+               y="167"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg595">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text589">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan587">AWS</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="25.099999999999998"
+                 font-size="15pt"
+                 fill="#f5b720"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text593">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan591">AWS</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g613">
+          <g
+             transform="translate(0 0)"
+             id="g611">
+            <svg
+               x="-16"
+               y="176"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg609">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#ffc107"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text603">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan601">CodeBuild</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="36.5"
+                 font-size="25pt"
+                 fill="#ffc107"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text607">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan605">CodeBuild</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g627">
+          <g
+             transform="translate(0 0)"
+             id="g625">
+            <svg
+               x="-400"
+               y="305"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg623">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text617">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan615">Post /webhook</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text621">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan619">Post /webhook</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g641">
+          <g
+             transform="translate(0 0)"
+             id="g639">
+            <svg
+               x="-272"
+               y="398"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg637">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text631">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan629">git pull origin master</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#8bc34a"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text635">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan633">git pull origin master</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g655">
+          <g
+             transform="translate(0 0)"
+             id="g653">
+            <svg
+               x="-608"
+               y="426"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg651">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text645">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan643">1</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text649">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan647">1</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g669">
+          <g
+             transform="translate(0 0)"
+             id="g667">
+            <svg
+               x="-432"
+               y="287"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg665">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text659">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan657">2</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text663">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan661">2</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g683">
+          <g
+             transform="translate(0 0)"
+             id="g681">
+            <svg
+               x="-288"
+               y="389"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg679">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text673">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan671">3</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text677">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan675">3</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g697">
+          <g
+             transform="translate(0 0)"
+             id="g695">
+            <svg
+               x="144"
+               y="139"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg693">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text687">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan685">4</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text691">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan689">4</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g711">
+          <g
+             transform="translate(0 0)"
+             id="g709">
+            <svg
+               x="240"
+               y="361"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg707">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text701">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan699">5</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text705">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan703">5</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g725">
+          <g
+             transform="translate(0 0)"
+             id="g723">
+            <svg
+               x="-256"
+               y="648"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg721">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text715">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan713">Access updated site</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text719">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan717">Access updated site</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g739">
+          <g
+             transform="translate(0 0)"
+             id="g737">
+            <svg
+               x="-416"
+               y="296"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg735">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text729">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan727">GitHub Triggers webhook</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="26.24"
+                 font-size="16pt"
+                 fill="#000000"
+                 font-weight="bold"
+                 transform="matrix(0.707 -0.409 0.707 0.409 0 0)"
+                 id="text733">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan731">GitHub Triggers webhook</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g757">
+          <g
+             transform="translate(0 0)"
+             id="g755">
+            <svg
+               x="-64"
+               y="592"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg753">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text745">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan741">PBX Website</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan743">form bucket</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform="matrix(0.707 0.409 -0.707 0.409 0 0)"
+                 id="text751">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan747">PBX Website</tspan>
+                <tspan
+                   x="8"
+                   dy="1.1em"
+                   id="tspan749">form bucket</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g771">
+          <g
+             transform="translate(0 0)"
+             id="g769">
+            <svg
+               x="-128"
+               y="463"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg767">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text761">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan759">6</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text765">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan763">6</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+        <g
+           id="g785">
+          <g
+             transform="translate(0 0)"
+             id="g783">
+            <svg
+               x="-176"
+               y="657"
+               overflow="visible"
+               style="user-select:none"
+               version="1.1"
+               id="svg781">
+              <text
+                 stroke="#ffffff"
+                 stroke-width="4"
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text775">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan773">7</tspan>
+              </text>
+              <text
+                 font-family="Open Sans"
+                 y="30.799999999999997"
+                 font-size="20pt"
+                 fill="#4286c5"
+                 font-weight="bold"
+                 transform=""
+                 id="text779">
+                <tspan
+                   x="8"
+                   dy="0"
+                   id="tspan777">7</tspan>
+              </text>
+            </svg>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

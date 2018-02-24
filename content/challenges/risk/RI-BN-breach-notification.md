@@ -7,7 +7,7 @@ skills    : GDPR Knowledge, Regulations, Written Ability
 area      : risk
 ---
 
-Write an GDPR breach notification letter to one of the EU Regulator (for example ICO in the UK) with a breach notification for (at least) one of the following scenarios:
+Write an GDPR breach notification letter to one of the EU Regulators (for example the ICO in the UK) with a breach notification for (at least) one of the following scenarios:
 
  - 1024 PhotoBooks and cards sent to the wrong recipient
  - Customer's Usernames and Passwords available to download in S3 bucket (via exposed API key and Secret)
@@ -18,7 +18,7 @@ Write an GDPR breach notification letter to one of the EU Regulator (for example
 **Notes**
 
  - You have creative license to expand the chosen scenarios
- - You can chose an EU Regulator from one of the four companies the Photobox Group operates
+ - You can choose an EU Regulator from one of the four companies the Photobox Group operates
    (UK, France, Spain and Germany)
  - It would be very interesting to see the same scenario sent to multiple regulators, where the
-   differences between then would be highlighted
+   differences between them would be highlighted

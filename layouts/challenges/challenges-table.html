@@ -1,157 +1,54 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-    {{ partial "head.html" . }}
-    {{ partial "css/print-fixes.html" }}
-    <body>
-        <div id="all">
-            <header>
-              {{ partial "nav.html" . }}
-            </header>
+  {{ partial "head.html" . }}
+  {{ partial "css/print-fixes.html" }}
+<body>
+<div id="all">
+  <header>
+    {{ partial "nav.html" . }}
+  </header>
+  {{ partial "breadcrumbs.html" . }}
+  <div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          {{ .Content }}
+          {{ $.Scratch.Set "area" "compliance" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
-            <style>
-                .challenge-area {
-                    border-radius: 10px;
-                    background: #FAFAFA;
-                    border: 1px solid;
-                    margin-bottom:20px
-                }
-                .challenge-area .title {
-                    border-top-left-radius : 10px;
-                    border-top-right-radius: 10px;
-                    padding                : 1px;
-                    color                  : white;
-                    background-color       : #8fc43e;
-                    font-size              : 150%;
-                    text-align             : center;
-                }
-                .challenge-area .title .size {
-                    font-size   : 9px;
-                }
+          {{ $.Scratch.Set "area" "management" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
-                .challenge-area .difficulty {
-                    font-size : 75%;
-                    vertical-align: middle;
-                }
-                .challenge-area .key {
-                    font-size : 75%;
-                    width     : 51px;
-                    vertical-align: middle;
-                }
-                .challenge-area table {
-                    font-size: 100%;
-                    margin-bottom:0px;
-                }
-                .challenge-area thead {
-                    font-size: 75%;
-                }
-                .challenge-area table td {
-                    padding-bottom  : 2px !important;
-                    padding-top     : 2px !important;
-                    border-radius: 10px;
-                }
+          {{ $.Scratch.Set "area" "programming" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
+          {{ $.Scratch.Set "area" "research" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
+          {{ $.Scratch.Set "area" "risk" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
+          {{ $.Scratch.Set "area" "security" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
-            </style>
-            {{ partial "breadcrumbs.html" . }}
+          {{ $.Scratch.Set "area" "standards" }}
+          {{ partial "challenge/challenges-table.html" . }}
 
-            <div id="content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            {{ .Content }}
-                            {{ $challenges := where $.Site.Pages "Section" "challenges" }}
-
-                            <!-- this adds to Scratch a mapping of all usages of challenges -->
-                            {{ range where $challenges ".Params.challenges" "!=" nil }}
-                                {{ range .Params.challenges }}
-                                    {{ with $.Site.GetPage "page" . }}
-                                        {{ $.Scratch.Add .Params.key 1 }}
-                                    {{ end }}                             
-                                {{ end }}
-
-                            {{ end}}
-
-                            {{ $challenges := where $.Site.Pages "Section" "challenges" }}
-                            {{ $byArea     := $challenges.GroupByParam "area" }}
-                            {{ $len        := len $byArea }}
-                            <div>
-                            {{ range $i, $elemment := $byArea }}
-                                {{ if modBool $i 3 }}
-                                    </div>
-                                    <div class="row">
-                                {{ end }}
-                                        <div class="col-xs-4">
-                                            <div class="challenge-area">
-
-                                                <div class="title">
-                                                    {{ .Key }}
-                                                    <span class="size hidden-print">
-                                                        x{{ len .Pages }}
-                                                    <span>
-                                                </div>
-
-                                                <table class="table">
-                                                    <thead>
-                                                        <th>Title</th>
-                                                        <!--<th class="text-center">Used</th>-->
-                                                        <th class="text-center">Difficulty</th>
-                                                        <th class="text-center">key</th>
-                                                    </thead>
-                                                    {{ range .Pages }}
-                                                        <tr>
-
-                                                            <td>{{ .Params.Title }}</td>
-                                                            <!-- <td class="text-center difficulty" >{{ $.Scratch.Get .Params.Key }} </td> -->
-                                                            <td class="text-center difficulty">
-                                                                <span class="difficulty-{{ .Params.difficulty }}">
-                                                                    {{ .Params.difficulty }}
-                                                                </span>
-                                                            </td>
-                                                            <td class="text-center key">
-
-                                                                <span class="size hidden-print">
-                                                                    <a href="{{ .Permalink}}">{{ .Params.Key }}</a>
-                                                                </span>
-                                                                <span class="size visible-print">
-                                                                    {{ .Params.Key }}
-                                                                </span>
-                                                            </td>
-                                                        </tr>
-                                                    {{ end }}
-                                                </table>
-                                            </div>
-                                        </div>
-
-                            {{ end }}
-                            </div>
-
-                            <!--<h2>Just Title</h2>-->
-                            <!--<table class="table">-->
-                                <!--<thead>-->
-                                <!--{{ range $byArea }}-->
-                                    <!--<th>{{ .Key }}</th>-->
-                                <!--{{ end }}-->
-                                <!--</thead>-->
-                                <!--<tr>-->
-                                    <!--{{ range $byArea }}-->
-                                        <!--<td>-->
-                                            <!--{{ range .Pages }}-->
-                                                <!--{{ .Params.Title }}-->
-                                                <!--<br/>-->
-                                            <!--{{ end }}-->
-
-                                        <!--</td>-->
-                                    <!--{{ end }}-->
-                                <!--</tr>-->
-                            <!--</table>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ partial "footer.html" . }}
+          {{ $.Scratch.Set "area" "technical" }}
+          {{ partial "challenge/challenges-table.html" . }}
         </div>
-        {{ partial "scripts.html" . }}
-    </body>
+        <div class="col-md-3">
+        </div>
+      </div>  <!-- /.row -->
+    </div>  <!-- /.container -->
+    {{ if ne .Params.Title "Pages for candidates" }}
+      <ul>
+        <small><i><a href ='/challenges/for-candidate/'>for-candidate</a></i></small>
+      </ul>
+    {{ end }}
+  </div>  <!-- /#content -->
+  {{ partial "footer.html" . }}
+</div>  <!-- /#all -->
+{{ partial "scripts.html" . }}
+</body>
 </html>

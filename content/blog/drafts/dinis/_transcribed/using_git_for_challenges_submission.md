@@ -1,0 +1,20 @@
+---
+draft  : true
+title  : Using Git for challenges submission
+author : Dinis Cruz
+notes:
+ - english and structure needs fixing
+---
+
+Using Git repos' to manage answers
+
+
+Part of the candidate’s workflow is that we are asking the candidates to submit their answer using Git repos', which contains, the default one we provide is as a gecko website, that automatically build some pages, and kind of looks okay. The first reason we are doing this, versus asking them to submit a word document or other medias, is to allow our candidates to shine, right? The second one, it allows the substitutions to be easier to consume.
+
+So, the fundamental concept that we are trying to do here, is not to make any judgments on the candidates cvs, and initial submission qualities, until he submits this information. And what I don't like about cvs is the fact that, there is a lot of exaggeration that occurs on cvs, they tend to be massively not normalized. You know, cvs tend to be very different from each other making them hard to review. And sometimes you are forced to make choices based on the initial cv, and somebody who might actually say the truth, or be more, let's say, objective with their achievement, might be not selected, just because there is other cvs that look a lot more impressive. And there is a limitation of how many people you can actually interview.
+
+And that is what we try to avoid. So, the idea is to say, we actually want the candidates to do a bunch of challenges. And the challenges are based on real world examples of what we ask them to do. And, they will provide the challenges in this Git environment.
+
+Now, the Git environment, and having a static website generation, is also very interesting, because it allows, I'd say the ideal candidate to really shine. So, if it was me, I wouldn't improve that website, I wouldn't just add the content, I'd make it better, I would basically take the new, in this case gecko, website that we gave and really stand out. I'd add some extra functionality. So, for example, one of the challenges is to do some log analysis in an environment, you know, I'd actually integrated it with it, I'd make it dynamic, I'd expose information so much better. There is a bunch of challenges that ask people to provide the graph, so I'd actually embedded the graph in my answer. So, basically, like in reality, is that I would like the reviewer to already be impressed as soon as they hit the website. And this is where it gets interesting, because what it means, it means that we'll them use those answers, basically, those websites, to actually make our decision on which candidates to take to the next level, either for working in section or interviews. And doing those next set of stages, what we will do, is we will talk about how they answered. So, instead of thinking the whole typical interview think, where you go, what about this? What about that? And the candidates talk about what they did. And we can actually say, look on your answer you did this. Or on your answer you actually claimed this, and I can see it here, can you now expand on that? Can you show me how you've done this? Or this step here is quite pure, let me see how you handled that. 
+
+So, basically, we will make the interview process so much more efficient, and actually, I would say, even more interesting. Because what you really want it to have somebody that the interviewers are impressed by. And they go, "wow, I was really impressed for how you've done x, and tell me more about it!". Because I felt in the past, that the best interviews I had was when they already knew some of my research, or they knew some of the stuff I've done, and I was just basically explaining how I got there and my thinking behind that. And I know that it works better for all ways, for everybody involved. So, that's kind of logic. The hope is that we will actually have some really good examples out this, that will all set the standard, and will set the frame of what we actually are expecting from those websites.

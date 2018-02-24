@@ -1,5 +1,82 @@
-/* your styles go here */
+/* custom header background styles */
+#heading-breadcrumbs {
+  background-image: url('../img/pbx-gs/headers/about-us.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 208px;
+}
 
+#heading-breadcrumbs,
+#heading-breadcrumbs.site,
+#heading-breadcrumbs.page,
+#heading-breadcrumbs.about-us-header {
+  /* background: url('../img/texture-bw.png') center center repeat; */  
+  /* fallback */
+  background-color: #80C70B;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#4F9179), to(#80C70B));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #80C70B, #4F9179);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #80C70B, #4F9179);
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #80C70B, #4F9179);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #80C70B, #4F9179);
+  background-image: url('../img/pbx-gs/headers/about-us.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#heading-breadcrumbs.roles-header {
+  background-color: #A0C860;
+  background: -webkit-gradient(linear, left top, right top, from(#E2E665), to(#A0C860));
+  background: -webkit-linear-gradient(left, #A0C860, #E2E665);
+  background: -moz-linear-gradient(left, #A0C860, #E2E665);
+  background: -ms-linear-gradient(left, #A0C860, #E2E665);
+  background: -o-linear-gradient(left, #A0C860, #E2E665);
+  background-image: url('../img/pbx-gs/headers/roles.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#heading-breadcrumbs.challenges-header {
+  background-color: #93C38C;
+  background: -webkit-gradient(linear, left top, right top, from(#4F9179), to(#93C38C));
+  background: -webkit-linear-gradient(left, #93C38C, #4F9179);
+  background: -moz-linear-gradient(left, #93C38C, #4F9179);
+  background: -ms-linear-gradient(left, #93C38C, #4F9179);
+  background: -o-linear-gradient(left, #93C38C, #4F9179);
+  background-image: url('../img/pbx-gs/headers/challenges.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#heading-breadcrumbs.blog-header {
+  background-color: #4F9179;
+  background: -webkit-gradient(linear, left top, right top, from(#78FF95), to(#4F9179));
+  background: -webkit-linear-gradient(left, #4F9179, #78FF95);
+  background: -moz-linear-gradient(left, #4F9179, #78FF95);
+  background: -ms-linear-gradient(left, #4F9179, #78FF95);
+  background: -o-linear-gradient(left, #4F9179, #78FF95);
+  background-image: url('../img/pbx-gs/headers/blog.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+#heading-breadcrumbs.contact-header {
+  background-color: #F68155;
+  background: -webkit-gradient(linear, left top, right top, from(#B6466E), to(#F68155));
+  background: -webkit-linear-gradient(left, #F68155, #B6466E);
+  background: -moz-linear-gradient(left, #F68155, #B6466E);
+  background: -ms-linear-gradient(left, #F68155, #B6466E);
+  background: -o-linear-gradient(left, #F68155, #B6466E);
+  background-image: url('../img/pbx-gs/headers/contact.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+/* custom edit box styles ??? */
 .box-image-text .image {
   min-height: 200px;
   max-height: 200px;
@@ -34,22 +111,78 @@
   border-color: #8FC43E;
 }
 
-
-</div>
-
 @media only screen and (min-width : 481px) {
    .flex-row.row {
-	 display: flex;
-	 flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
    }
    .flex-row.row > [class*='col-'] {
-	 display: flex;
-	 flex-direction: column;
+   display: flex;
+   flex-direction: column;
    }
   .flex-row.row:after,
   .flex-row.row:before {
-	 display: flex;
+   display: flex;
   }
 }
 
+.event-card{
+  display: block;
+  position: relative;
+  border:2px solid #808281;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom:30px;
+  font-family: 'Century Gothic', sans-serif;
+  /* Maintaning a square ratio */
+  padding-top: calc(1 / 1 * 100%);
+}
+a.event-card:hover{
+  text-decoration: none;
+}
+.event-card__block{
+  /* Adapt to square ratio parent */
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+}
+.event-card__head{
+  letter-spacing: 1px;
+  color:white;
+  background:#8fc43d;
+  flex:0 0 auto;
+  border-bottom:2px solid #808281;
+}
+.event-card__body{
+  color:#8fc43d;
+  font-size: 3.5em;
+  font-weight: 400;
+  flex:1 1 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width:500px) and (max-width:650px){
+  .event-card{
+    font-size: 4rem;
+  }
+}
+@media (min-width:651px){
+  .event-card{
+    font-size: 2.3rem;
+  }
+}
+@media (min-width:1000px){
+  .event-card__body{
+    font-size:4em;
+  }
+}
 
+#post-content img{
+  max-width:100%;
+  display: block;
+  margin:0 auto;
+}

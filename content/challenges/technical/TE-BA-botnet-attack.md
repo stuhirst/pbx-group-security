@@ -14,7 +14,7 @@ A distributed botnet (from multiple IPs) is hitting one of our websites and is c
 
 **Objective: Understand and contain issue(s) without any pushes to production**
 
-* You can use any technology you want (ideally ones you have experience with) and any Group Security team size
+You can use any technology you want (ideally ones you have experience with) and any Group Security team size
 * Describe what you would do and how you would act (ideally in diagram format)
 * Who would you talk to?
 * What actions would you take to contain and remediate the issue(s)?

@@ -13,7 +13,9 @@
             <div id="content">
                 <div class="container">
                     {{ block "content" .          }}{{ end }}
-                    {{ partial "edit-link.html" . }}
+                    {{ if eq .Kind "page" }}
+                        {{ partial "edit-link.html" . }}
+                    {{ end }}
                 </div>
                 {{ partial "footer.html" . }}
             </div>

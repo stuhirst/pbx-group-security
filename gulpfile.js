@@ -36,8 +36,10 @@ gulp.task('css', function(){
 	   'src/styles/css/lib/font-awesome.min.css',
 	   'src/styles/css/lib/bootstrap.min.css',
 	   'src/styles/css/animate.css',
+	   'src/styles/css/style.helpers.css',
 	   'src/styles/css/style.default.css',
 	   'src/styles/css/custom.css',
+	   'src/styles/css/style.challenge.css',
 	   'src/styles/css/owl.carousel.css',
 	   'src/styles/css/owl.theme.css',
    ])
@@ -52,5 +54,11 @@ gulp.task('images', function(){
     .pipe(gulp.dest('static/img'))
 });
 
+gulp.task('watch', function() {
+    gulp.watch(['src/styles/css/**/*.css'], ['css']);
+});
+
 gulp.task('default',['js','css','images'],function(){
 });
+
+

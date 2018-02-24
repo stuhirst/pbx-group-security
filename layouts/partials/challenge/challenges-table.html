@@ -1,52 +1,60 @@
 {{ $filter_by := $.Scratch.Get "area" }}
 
 <div class="alert alert-warning">
-    <b>
-        {{ upper $filter_by }}
-    </b>
+  <b>{{ upper $filter_by }}</b>
 </div>
+
 <table class="table table-condensed table-">
-    <thead>
-        <th width="30%">title</th>
-        <!--<th>level</th>-->
-        <!--<th>required</th>-->
-        <th width="55px">key</th>
-        <th width="10%">difficulty</th>
-
-        <th>skills</th>
-        <th></th>
-    </thead>
-    {{ range sort .Data.Pages ".Params.title" }}
-        {{ if ne .Params.hide true }}
-            {{ if eq .Params.area $filter_by }}
-                <tr>
-                    <td>
-                        <div class="hidden-print">
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                        </div>
-                        <div class="visible-print challenge-title">
-                            <b>
-                                {{ .Title }}
-                            </b>
-                        </div>
-                    </td>
-                    <!--<td>{{ .Params.level }}</td>-->
-                    <!--<td>{{ if .Params.required }} yes {{else}} no {{end}}</td>-->
-                    <td>{{ .Params.key }}</td>
-                    <td>
-                        <span class="difficulty-{{ .Params.difficulty }}">
-                            {{ .Params.difficulty }}
-                        </span>
-                    </td>
-                    <td>{{ .Params.skills }}</td>
-                    <td>
-                        <div class="hidden-print">
-                            <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" target="_blank"><i class="fa fa-pencil-square-o"></i></a>
-                        </div>
-                    </td>
-
-                </tr>
-            {{ end }}
+  <thead>
+    <th width="30%">title</th>
+    <!--<th>level</th>-->
+    <!--<th>required</th>-->
+    <th width="55px">key</th>
+    <th width="10%">difficulty</th>
+    <th>skills</th>
+    <th></th>
+  </thead>
+  <tbody>    
+    {{ range sort .Parent.Data.Pages ".Params.title" }}
+      {{ if ne .Params.hide true }}
+        {{ if eq .Params.area $filter_by }}
+          <tr>
+            <td>
+              <div class="hidden-print">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </div>
+              <div class="visible-print challenge-title">
+                <b>
+                  {{ .Title }}
+                </b>
+              </div>
+            </td>
+            <!--<td>{{ .Params.level }}</td>-->
+            <!--<td>{{ if .Params.required }} yes {{else}} no {{end}}</td>-->
+            <td class="key">
+              <span class="size hidden-print">
+                <a href="{{ .Permalink}}">{{ .Params.Key }}</a>
+              </span>
+              <span class="size visible-print">
+                {{ .Params.Key }}
+              </span>
+            </td>
+            <td>
+              <span class="difficulty-{{ .Params.difficulty }}">
+                {{ .Params.difficulty }}
+              </span>
+            </td>
+            <td>{{ .Params.skills }}</td>
+            <td>
+              <div class="hidden-print">
+                <a href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}" target="_blank">
+                  <i class="fa fa-pencil-square-o"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
         {{ end }}
+      {{ end }}
     {{ end }}
+  </tbody>
 </table>

@@ -4,7 +4,7 @@ aliases : 01adfb6c
 type    : for-candidate
 
 challenges:
-    - CP-AD-adaptability.md
+#    - CP-AD-adaptability.md
     - MA-TA-attract-talent.md
     - PR-PE-programming-experience.md
     - RE-TL-tech-leader.md
@@ -12,8 +12,8 @@ challenges:
     - ST-CC-CBEST_CREST.md
 
 next_challenges:
-    - CP-CB-collaboration.md
-    - CP-PL-planning.md
+#    - CP-CB-collaboration.md
+#    - CP-PL-planning.md
     - MA-RM-role-model.md
     - RE-OS-open-source.md
     - RI-JW-jira-workflow.md
