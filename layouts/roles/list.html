@@ -1,110 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "content" }}
+    <div class="row">
+        <div class="col-md-9">
+            {{ .Content }}
+            {{ $.Scratch.Set "roles_table_title" "Permanent Positions" }}
+            {{ $.Scratch.Set "contract_type" "Permanent" }}
+            {{ partial "roles/roles-table.html" . }}
 
-  {{ partial "head.html" . }}
+            {{ $.Scratch.Set "roles_table_title" "Contract Positions" }}
+            {{ $.Scratch.Set "contract_type" "Contractor" }}
+            {{ partial "roles/roles-table.html" . }}
 
-  <body>
-
-    <div id="all">
-
-        <header>
-
-          {{ partial "nav.html" . }}
-
-        </header>
-
-        {{ partial "breadcrumbs.html" . }}
-
-        <div id="content">
-            <div class="container">
-                <div class="row">
-
-                    <main>
-                        <div>
-                            <p>{{ .Content }} </p>
-
-                            <h2>Permanent Positions</h2>
-                            <table class="table">
-                                <thead>
-                                <tr>
-                                    <th width="40%"> Role           </th>
-                                    <th> Contract Type  </th>
-                                    <th> Location       </th>
-                                    <th> Apply          </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                {{ range where .Data.Pages "Params.contract_type" "Permanent" }}
-                                    {{ if ne .Params.hide true}}
-                                        <tr>
-                                            {{ partial "roles/contract_td.html" . }}
-                                        </tr>
-                                    {{ end}}
-                                {{ end }}
-                                </tbody>
-
-                            </table>
-
-                            <h2>Contract Positions</h2>
-
-                            <table class="table">
-                                <thead>
-                                <tr>
-                                    <th  width="40%"> Role           </th>
-                                    <th> Contract Type  </th>
-                                    <th> Location       </th>
-                                    <th> Apply          </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                {{ range where .Data.Pages "Params.contract_type" "Contractor" }}
-                                <tr>
-                                    {{ partial "roles/contract_td.html" . }}
-                                </tr>
-                                {{ end }}
-                                </tbody>
-
-                            </table>
-
-                            <h2>Upwork</h2>
-
-                            <table class="table">
-                                <thead>
-                                <tr>
-                                    <th  width="40%"> Role           </th>
-                                    <th> Contract Type  </th>
-                                    <th> Location       </th>
-                                    <th> Apply          </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                {{ range where .Data.Pages "Params.contract_type" "Upwork" }}
-                                <tr>
-                                    {{ partial "roles/contract_td.html" . }}
-                                </tr>
-                                {{ end }}
-                                </tbody>
-
-                            </table>
-
-                        </div>
-                    </main>
-
-                    <hr/>
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>
+            {{ $.Scratch.Set "roles_table_title" "Upwork" }}
+            {{ $.Scratch.Set "contract_type" "Upwork" }}
+            {{ partial "roles/roles-table.html" . }}
+            <hr/>          
+        </div>        
+    </div> <!-- /.row -->
+{{ end }}

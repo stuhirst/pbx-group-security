@@ -1,81 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-
-  {{ partial "head.html" . }}
-
-  {{ partial "css/print-fixes.html" }}
-
-  <body>
-
-    <div id="all">
-
-        <header>
-
-          {{ partial "nav.html" . }}
-
-        </header>
-
-        {{ partial "breadcrumbs.html" . }}
-
-
-        <div id="content">
-            <div class="container">
-                <div class="row">
-
-                    <main>
-                        <div>
-                            <p>{{ .Content }}</p>
-
-                            {{ if eq .Params.Title "Pages for candidates" }}
-                                <ul>
-                                    {{ range sort .Data.Pages ".Params.title" }}
-                                        <li>
-                                            <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                        </li>
-                                    {{ end }}
-                                </ul>
-                            {{ else }}
-                                <h3>All challenges (by area)</h3>
-                                {{ $.Scratch.Set "area" "competency"    }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "compliance"    }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "management"    }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "programming"   }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "research"      }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "risk"          }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "security"      }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "standards"     }} {{ partial "challenge/challenges-table.html" . }}
-                                {{ $.Scratch.Set "area" "technical"     }} {{ partial "challenge/challenges-table.html" . }}
-                            {{ end }}
-
-
-                        </div>
-                    </main>
-
-
-
-                    <div class="col-md-3">
-
-                    </div>
-
-                </div>
-                <!-- /.row -->
-            </div>
-
-            {{ if ne .Params.Title "Pages for candidates" }}
-                <ul>
-                    <small><i><a href ='/challenges/for-candidate/'>for-candidate</a></i></small>
-                </ul>
+{{ define "content" }}
+    {{ .Content }}
+    {{ if eq .Params.Title "Pages for candidates" }}
+        <ul>
+            {{ range sort .Data.Pages ".Params.title" }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
             {{ end }}
-            <!-- /.container -->
+        </ul>
+    {{ else }}
+        {{ $challenges := where $.Site.Pages "Section" "challenges" }}
+          <!-- this adds to Scratch a mapping of all usages of challenges -->
+        {{ range where $challenges ".Params.challenges" "!=" nil }}
+            {{ range .Params.challenges }}
+                {{ with $.Site.GetPage "page" . }}
+                    {{ $.Scratch.Add .Params.key 1 }}
+                {{ end }}                             
+            {{ end }}
+        {{ end}}
+        <!-- challenges table cards by area, 3 per row -->
+        {{ $challengesByArea := $challenges.GroupByParam "area" }}
+    <div>
+    {{ range $i, $elemment := $challengesByArea }}
+        {{ if modBool $i 3 }}
+            </div>
+            <!-- add class .row--flex to make every item match height of taller sibling -->
+            <div class="row row--flex">
+        {{ end }}
+        <!-- add class .col--flex for same purpose as previous comment -->
+        <div class="col-md-4 col--flex">
+            {{ partial "challenge/challenges-area.html" . }}
         </div>
-        <!-- /#content -->
-
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>
+        {{ end }} <!-- /challenges by area -->
+      </div>
+    {{ end }} <!-- /for-candidates else-if -->          
+    </div>  
+{{ end }}

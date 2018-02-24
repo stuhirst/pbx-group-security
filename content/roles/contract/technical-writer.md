@@ -1,4 +1,5 @@
 ---
+draft           : true
 title           : Technical Writer
 layout          : role-upwork
 date            : 2018-01-05

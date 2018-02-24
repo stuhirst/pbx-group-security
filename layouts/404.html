@@ -1,50 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "content" }}
+<div class="col-sm-6 col-sm-offset-3" id="error-page">
 
-  {{ partial "head.html" . }}
+    <div class="box">
 
-  <body>
+        <p class="text-center">
+            <a href="/">
+              <img src="/img/pbx-gs/pbx-gs-logo.png" height="35">
+            </a>
+        </p>
 
-    <div id="all">
+        <h3>We are sorry - this page is not here anymore</h3>
+        <h4 class="text-muted">Error 404 - Page not found</h4>
 
-        <header>
-
-          {{ partial "nav.html" . }}
-
-        </header>
-
-        <div id="content">
-            <div class="container">
-
-                <div class="col-sm-6 col-sm-offset-3" id="error-page">
-
-                    <div class="box">
-
-                        <p class="text-center">
-                            <a href="{{ .Site.BaseURL }}">
-                              <img src="/img/pbx-gs/pbx-gs-logo.png" height="35">
-                            </a>
-                        </p>
-
-                        <h3>We are sorry - this page is not here anymore</h3>
-                        <h4 class="text-muted">Error 404 - Page not found</h4>
-
-                        <p class="buttons"><a href="{{ .Site.BaseURL }}" class="btn btn-template-main"><i class="fa fa-home"></i> Go to Homepage</a>
-                        </p>
-                    </div>
-
-
-                </div>
-                <!-- /.col-sm-6 -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-	{{ if not .Site.BuildDrafts }}
-	  {{ template "_internal/google_analytics.html" . }}
-	{{ end }}
-        {{ partial "footer.html" . }}
-
+        <p class="buttons"><a href="{{ .Site.BaseURL }}" class="btn btn-template-main"><i class="fa fa-home"></i> Go to Homepage</a>
+        </p>
     </div>
-  </body>
-</html>
+
+</div>    
+{{ end }}

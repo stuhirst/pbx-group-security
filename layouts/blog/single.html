@@ -1,77 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "content" }}
+    <div class="row">
+        <!-- *** LEFT COLUMN *** -->
+        <div class="col-md-9" id="blog-post">
 
-  {{ partial "head.html" . }}
+			   {{ $author := index .Params.authors 0 }}
+         <p class="text-muted text-uppercase mb-small text-right">{{ with $author }}{{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | urlize }}/">{{ . }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
 
-  <body>
 
-    <div id="all">
-
-        <header>
-
-          {{ partial "nav.html" . }}
-
-        </header>
-
-        {{ partial "breadcrumbs.html" . }}
-
-        <div id="content">
-            <div class="container">
-
-                <div class="row">
-
-                    <!-- *** LEFT COLUMN *** -->
-
-                    <div class="col-md-9" id="blog-post">
-			{{ $author := index .Params.authors 0 }}
-                        <p class="text-muted text-uppercase mb-small text-right">{{ with $author }}{{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}authors/{{ . | urlize }}/" rel="author">{{ . }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
-
-                        <div id="post-content">
-                          {{ .Content }}
-
-			  {{ partial "edit-link.html" . }}
-                        </div>
-                        <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
-
-                    </div>
-                    <!-- /#blog-post -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN *** -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-
+            <div id="post-content" class="user-edit">
+              {{ .Content }}
             </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
+            <!-- /#post-content -->
+            {{ if .Site.DisqusShortname }}
+            <div id="comments">
+                {{ template "_internal/disqus.html" . }}
+            </div>
+            {{ end }}
 
-        {{ partial "footer.html" . }}
+        </div>
+        <!-- /#blog-post -->
 
     </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>
+    <!-- /.row -->
+{{ end }}

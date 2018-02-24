@@ -5,7 +5,7 @@ hide    : true
 ### How to Submit your answers
 
 Please submit your answers using a clone [of this GitHub repository](https://github.com/photobox/pbx-candidate-answers), which is a
-[Jekyll](https://jekyllrb.com/) based website. You can find
+[Hugo](https://gohugo.io/) based website. You can find
 more detailed instructions [here](/page/submit-using-git-repo/).
 
 **Think agile and incremental changes**
@@ -19,6 +19,6 @@ Your first priority should be to:
 **Don't wait until you have all answers to contact us!**
 
 Part of the excercise is to see how you evolve and work collaboratively (in this case with us).
-The ideal candidate will be making regular updates, asking focused questions and helping to make
+The ideal candidate will be making regular updates, asking focused questions and help to make
 the challenges better.
 

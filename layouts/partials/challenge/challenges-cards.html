@@ -1,15 +1,15 @@
 <!-- legacy version, to be deleted
      new version is called challenges-cards.html -->
-<h3>{{ .title }}</h3>
+<!--<h3>{{ .title }}</h3>-->
 <div>
 
     {{ range $index, $element := .challenges }}
         {{ if modBool $index 3 }}
             </div>                      <!-- trick to make rows work ok -->
-            <div  class="row">
+            <div  class="row row--flex">
         {{ end }}
 
-        <div class="col-md-4">
+        <div class="col-md-4 col--flex">
 
             {{ with $.site.GetPage "page" . }}
 

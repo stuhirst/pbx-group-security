@@ -1,6 +1,6 @@
 ## How to apply
 
-Your first step is to register your interest by clicking the link at the top of this page.
+Submit your application by clicking the link at the top of this page.
 
 In order to provide a fair and objective recruitment process, before we invite you for face-to-face interviews, we ask you to submit your answers to theoretical and practical challenges. This helps us to identify your suitability and experience level. 
 

@@ -6,7 +6,7 @@ area        : standards
 skills      : Threat Assessment, Compliance, Security
 ---
 
-Define your involvement with CBEST and CREST;
+Define your involvement with CBEST and CREST:
 
  - Are you a CREST certified professional?
   - If so, which certification do you have? (and when did you take the exam?)

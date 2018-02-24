@@ -6,7 +6,7 @@ difficulty  : hard
 skills      : Secure Architecture, Vulnerability Management, Incident Response
 ---
 
-A misconfiguration is identified in the VLAN configuration. Users in the guest wifi can access internal systems.
+A misconfiguration is identified in the VLAN configuration. Users in the guest WiFi can access internal systems.
 
 - Handle the vulnerability by answering the key questions:
 
@@ -18,8 +18,8 @@ A misconfiguration is identified in the VLAN configuration. Users in the guest w
 
 **Objective: Understand and contain issue(s) without any pushes to production**
 
-* You can use any technology you want (ideally ones you have experience with) and any Group Security team size
-* Describe what you would do and how you would act (ideally in diagram format)
+You can use any technology you want (ideally ones you have experience with) and any Group Security team size.
+* Describe what you would do and how you would act (ideally in diagram format).
 * Who would you talk to?
 * What actions would you take to contain and remediate the issue(s)?
 

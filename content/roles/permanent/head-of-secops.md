@@ -4,7 +4,7 @@ layout        : role
 date          : 2017-12-06
 contract_type : Permanent
 location      : London, Paris, Valencia or Munich
-apply_Link    : https://www.linkedin.com/jobs/view/553979743/
+apply_Link    : https://photoboxgroup.workable.com/j/67487A470A
 
 what_will_you_do:
     - Provide operational support, guidance, and vision to development teams. Work with team and product owners, providing guidance and execution of best practice.

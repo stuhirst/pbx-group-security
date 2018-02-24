@@ -4,4 +4,4 @@ In order to provide a fair and objective recruitment process, before we invite y
 
 Each challenge should take no longer than 10 - 15 minutes to complete, however, in order to highlight your key skills, you may take longer than the suggested time if you wish.
 
-Please see below **SOME OF THE CHALLENGES** we might ask you to do (we customise these based on your experience and CV)
+Please see **SOME OF THE CHALLENGES** we might ask you to do (we customise these based on your experience and CV)

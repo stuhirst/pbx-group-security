@@ -1,0 +1,14 @@
+{{ $node1 := "BBBB" }}
+{{ $node2 := "CCCC" }}
+
+dinetwork {
+    node[shape=box];
+
+    "node 1" -> "node 2" -> AAAA
+    AAAA -> BBBB
+    {{ $node1 }} -> {{ $node2}}
+
+    {{ range .Params.nodes }}
+        nodes -> {{ .}}
+    {{ end }}
+}

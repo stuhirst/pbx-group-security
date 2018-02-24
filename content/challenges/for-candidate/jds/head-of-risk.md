@@ -25,10 +25,11 @@ aliases :
     - 0869ba7d
     - c9b281e5
     - 77e653f4
+    - 8d0d7c2b
     
 type  :  for-candidate
 challenges:
-    - CP-ST-strategic-thinking.md
+#    - CP-ST-strategic-thinking.md
     - MA-DR-deliver-results.md
     - RI-RM-risk-management.md
     - CO-PI-pii-data-breach.md

@@ -1,9 +1,12 @@
-<div id="heading-breadcrumbs">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>{{ .Title }}</h1>
-            </div>
-        </div>
+{{ $url := replace .URL "/page" "" }}
+{{ $section := index (split $url "/") 1 }}
+<!-- kind={{ .Kind }} | url={{ .URL }} => url={{ $url }} | section={{ $section }} -->
+<div id="heading-breadcrumbs" class="{{ $section }}-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ .Title }}</h1>
+      </div>
     </div>
+  </div>
 </div>

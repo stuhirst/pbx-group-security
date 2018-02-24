@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 1500 208">
+    <defs>
+        <style>
+            .cls-1{fill:url(#linear-gradient);}.cls-17,.cls-2,.cls-5,.cls-6,.cls-8{opacity:0.4;}.cls-11,.cls-12,.cls-13,.cls-15,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8{fill:none;stroke:#fff;stroke-miterlimit:10;}.cls-11,.cls-15,.cls-3,.cls-4,.cls-7{stroke-linecap:round;stroke-width:2px;}.cls-4{stroke-dasharray:0 5.01;}.cls-12,.cls-13,.cls-5,.cls-6{stroke-width:1.5px;}.cls-12,.cls-5{stroke-dasharray:8 8;}.cls-7{stroke-dasharray:0 5.08;}.cls-10,.cls-16,.cls-17,.cls-9{fill:#fff;}.cls-9{opacity:0.45;}.cls-10{opacity:0.3;}.cls-11{stroke-dasharray:0 5;}.cls-11,.cls-12,.cls-13,.cls-14{opacity:0.35;}.cls-15{stroke-dasharray:0 5.14;}.cls-16{opacity:0.25;}
+        </style>
+        <linearGradient id="linear-gradient" x2="1500" y1="104" y2="104" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4f9179"/>
+            <stop offset="1" stop-color="#78ff95"/>
+        </linearGradient>
+    </defs>
+    <title>
+        website-headers-v02
+    </title>
+    <rect width="1500" height="208" class="cls-1"/>
+    <g class="cls-2">
+        <line x1="1342.39" x2="1342.39" y1="208" y2="208" class="cls-3"/>
+        <line x1="1342.39" x2="1342.39" y1="202.99" y2="25.17" class="cls-4"/>
+        <line x1="1342.39" x2="1342.39" y1="22.66" y2="22.66" class="cls-3"/>
+    </g>
+    <line x1="1203.88" x2="1434.56" y1="151.01" class="cls-5"/>
+    <circle cx="1203.46" cy="150.6" r="36" class="cls-6"/>
+    <g class="cls-2">
+        <circle cx="1203.46" cy="150.6" r="22.65" class="cls-7"/>
+    </g>
+    <circle cx="1342.39" cy="14.83" r="4.17" class="cls-8"/>
+    <path d="M1375.22,98h-9.7V69.9a23.58,23.58,0,1,0-47.16,0V98h-9.71V69.9a33.29,33.29,0,1,1,66.57,0Z" class="cls-9"/>
+    <path d="M1313.51,98H1291v64.14h101.94V98Zm35.71,48a7.11,7.11,0,0,1-14.22,0V130.06a7.11,7.11,0,0,1,14.22,0Z" class="cls-10"/>
+    <rect width="101.94" height="15.26" x="1290.97" y="162.13" class="cls-9"/>
+    <line x1="132.34" x2="385.01" y1="206.98" y2="44.19" class="cls-11"/>
+    <line x1="329.73" x2="186.34" y1="205.74" class="cls-12"/>
+    <circle cx="386.19" cy="42.82" r="19.5" class="cls-13"/>
+    <g class="cls-14">
+        <path d="M398.45,43.06a12.27,12.27,0,1,1-12-12.51A12.27,12.27,0,0,1,398.45,43.06Z" class="cls-15"/>
+    </g>
+    <rect width="52.36" height="11.7" x="212.04" y="183.12" class="cls-16"/>
+    <path d="M205.91,194.82H270.7a11.7,11.7,0,0,1,11.7,11.7v0a0,0,0,0,1,0,0H194.21a0,0,0,0,1,0,0v0A11.7,11.7,0,0,1,205.91,194.82Z" class="cls-17"/>
+    <path d="M145.65,156.21v21.88a5,5,0,0,0,5,5H325.47a5,5,0,0,0,5-5V155.92Zm92.43,19.89a7.31,7.31,0,1,1,7.31-7.31A7.31,7.31,0,0,1,238.08,176.1Z" class="cls-17"/>
+    <path d="M325.47,44.19h-44.4v9.65h39.2v102.1l10.23,0V49.22A5,5,0,0,0,325.47,44.19Z" class="cls-16"/>
+    <polygon points="155.59 82.5 145.65 82.5 145.65 156.21 155.59 156.2 155.59 82.5" class="cls-16"/>
+    <path d="M276.69,20.2H109.38A4.39,4.39,0,0,0,105,24.59V78.12a4.39,4.39,0,0,0,4.39,4.39H178.7s18.16,16.08,36.72,16.08c0,0-7.47-9.94-10.1-16.08h71.37a4.39,4.39,0,0,0,4.38-4.39V24.59A4.39,4.39,0,0,0,276.69,20.2ZM173,57.06a5.71,5.71,0,1,1,5.7-5.71A5.71,5.71,0,0,1,173,57.06Zm21.21,0a5.71,5.71,0,1,1,5.7-5.71A5.71,5.71,0,0,1,194.21,57.06Zm21.21,0a5.71,5.71,0,1,1,5.7-5.71A5.71,5.71,0,0,1,215.42,57.06Z" class="cls-17"/>
+</svg>

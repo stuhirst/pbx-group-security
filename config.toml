@@ -6,7 +6,7 @@ themesDir = "./"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 paginate = 10
-disqusShortname = "pbx-group-security-com"
+#disqusShortname = "pbx-group-security-com"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-111337742-1"
 
@@ -16,6 +16,17 @@ ignoreFiles = [ "^\\.#", "^\\#", "^\\.*.swp" ]
 tag = "tags"
 category = "categories"
 author = "authors"
+# To generate json pages, we need this here
+# And on each page, you add the list of outputs
+[outputs]
+  home = ["HTML", "stats"]
+  page = ["HTML", "JSON"]
+
+# New output format to be served at {baseURL}/stats.html 
+# Display quick website content stats overview
+[outputFormats.stats]
+mediaType = "text/html"
+baseName = "stats"
 
 [social]
 twitter = "pbg_security"
@@ -43,11 +54,6 @@ facebook = ""
     weight = 3
 
 [[menu.main]]
-    name = "For Recruiters"
-    url  = "/recruiters/"
-    weight = 4
-
-[[menu.main]]
     name = "Challenges"
     identifier = "challenges"
     url  = "/challenges/"
@@ -58,15 +64,21 @@ facebook = ""
     url  = "/blog/"
     weight = 6
 
+
+[[menu.main]]
+    name = "Working Sessions"
+    url  = "/working-sessions/"
+    weight = 7
+
 #[[menu.main]]
 #    name = "Dev"
 #    url  = "/page/dev/"
 #    weight = 5
 
-[[menu.main]]
-    name = "Contact"
-    url  = "/page/contact/"
-    weight = 7
+#[[menu.main]]
+#    name = "Contact"
+#    url  = "/page/contact/"
+#    weight = 8
 
 # Top bar social links menu
 

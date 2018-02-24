@@ -1,0 +1,20 @@
+{{ $events := $.Page.Params.events }}
+{{ with $events }}
+{{ $small := le (len .) 8 }}
+<div class="row" {{ if ($small) }} style="max-width:768px;" {{ end }}>
+	{{ range . }}
+	<div class='col-xs-6 {{ cond (not $small) "col-sm-2" "col-sm-3" }}'>
+		<a href="{{ .url }}" target="_blank" class="event-card">
+			<div class="event-card__block">
+				<div class="event-card__head">
+					{{ .date | dateFormat "January"  }}
+				</div>
+				<div class="event-card__body">
+					{{ .date | dateFormat "2" }}
+				</div>
+			</div>
+		</a>
+	</div>
+	{{ end }}
+</div>
+{{ end }}

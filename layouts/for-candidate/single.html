@@ -1,77 +1,46 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+{{ define "content" }}
+<div class="row">
 
-  {{ partial "head.html" .              }}
-  {{ partial "css/print-fixes.html"     }}
-  {{ partial "css/challenge-card.html"  }}
+    <div class="col-md-12" id="blog-post">
 
+        <!--<h3>Hi {{ index .Aliases 0 }} </h3>-->
+        <h3>Welcome to your Challenge page </h3>
+        <div id="post-content">
 
-  <body>
-    <div id="all">
+            {{ with .Site.GetPage "page" "challenges/_text/_intro.md" }}{{ .Content }}{{ end }}
 
-        <header>
+            {{ .Content }}
 
-          {{ partial "nav.html" . }}
+            <ul>
 
-        </header>
-
-        {{ partial "breadcrumbs.html" . }}
-
-        <div id="content">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-12" id="blog-post">
-
-                        <!--<h3>Hi {{ index .Aliases 0 }} </h3>-->
-                        <h3>Welcome to your Challenge page </h3>
-                        <div id="post-content">
-
-                            {{ with .Site.GetPage "page" "challenges/_text/_intro.md" }}{{ .Content }}{{ end }}
-
-                            {{ .Content }}
-
-                            <ul>
-
-                                {{ range .Params.challenges }}
-                                    {{ with $.Site.GetPage "page" . }}
-                                    <li>
-                                        <span class="hidden-print">
-                                            <a href="{{ .Permalink }}">{{ .Title }} </a>
-                                        </span>
-                                        <span class="visible-print">
-                                            {{ .Title }}
-                                        </span>
-
-                                    </li>
-                                    {{ end }}
-                                {{ end }}
-
-                            </ul>
-                            {{ with .Site.GetPage "page" "challenges/_text/_how_to_submit.md" }}{{ .Content }}{{ end }}
-
-                        </div>
-
-                        {{ partial "challenge/challenges-details.html" .}}
-
-
-                        <span class="__hidden-print">
-                            {{ with .Site.GetPage "page" "challenges/_text/_feedback.md" }}{{ .Content }}{{ end }}
-                            {{ with .Site.GetPage "page" "challenges/_text/_help.md" }}{{ .Content }}{{ end }}
+                {{ range .Params.challenges }}
+                    {{ with $.Site.GetPage "page" . }}
+                    <li>
+                        <span class="hidden-print">
+                            <a href="{{ .Permalink }}">{{ .Title }} </a>
+                        </span>
+                        <span class="visible-print">
+                            {{ .Title }}
                         </span>
 
-                    </div>
-                </div>
-                {{ partial "edit-link.html" . }}
-            </div>
-        </div>
-        {{ partial "footer.html" . }}
+                    </li>
+                    {{ end }}
+                {{ end }}
 
+            </ul>
+            {{ with .Site.GetPage "page" "challenges/_text/_how_to_submit.md" }}{{ .Content }}{{ end }}
+
+        </div>
+
+        {{ partial "challenge/challenges-details.html" .}}
+
+
+        <span class="__hidden-print">
+            {{ with .Site.GetPage "page" "challenges/_text/_feedback.md" }}{{ .Content }}{{ end }}
+            {{ with .Site.GetPage "page" "challenges/_text/_help.md" }}{{ .Content }}{{ end }}
+        </span>
 
     </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>
+</div>
+{{ end }}
+                

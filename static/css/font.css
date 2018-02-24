@@ -109,3 +109,20 @@
        url('../fonts/roboto-v18-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/roboto-v18-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
 }
+/* Century Gothic 700 */
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+/* Century Gothic 400 */
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+

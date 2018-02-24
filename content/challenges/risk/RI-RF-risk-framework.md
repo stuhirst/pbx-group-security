@@ -15,5 +15,5 @@ Share an anonymised risk framework, policy and standard that you have created in
 
 This should include details of how you:
 
-- embeded risk management
-- included optimising risk processes and methodology in the workflows created
+- Embeded risk management
+- Included optimising risk processes and methodology in the workflows created

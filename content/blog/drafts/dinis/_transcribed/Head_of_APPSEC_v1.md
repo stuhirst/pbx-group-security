@@ -1,0 +1,30 @@
+---
+draft  : true
+title  : Head of APPSEC
+author : Dinis Cruz
+notes:
+  - english and structure needs fixing
+---
+
+Head of APPSEC
+
+So, this is my dream candidate for Head of Application Security.
+
+Basically, the company is driven by the application that it creates. The value and how its provide, is as good as in the technology that is created by the applications that it creates and runs on top of our structure.
+
+Yes...As we move more for an AWS world, some compounds are becoming thinner, but still means that the things that makes a difference is the application that we write, and we have to make sure that those application are secure. Because those applications and the code that run on those applications has full access or very privileged access to a lot of our assets. Mainly, the photos that we have from our customers, the data the customer, and some case, even employees’ personal data. So, it's critical that we are able to create an environment where writing secure code is easy and is almost automatic. 
+
+So, the vision is that we need to create an environment, where developers can code in the most efficient and fast, and the most powerful way to develop is the one that is secure. And we do that by the mix of frameworks that are secure by default, by technology that is able to understand the side effects of what we create, and by guidance that allows the learning to occur, and by the right feedback, in the id or in the test environment about what they've done and finally, by having an environment that protect the assets and the application in run time, and massive the visualization and login. That allows the understanding of what is happening and when things go wrong. And that's the position we are looking to create.
+
+The person that we want to attract is somebody that will thrive on this challenge. That basically, want to make sure or wants to figure out, or to implement, solutions for scaling application security. Because, the reality is that we already know a lot about writing secure code and writing secure applications, and creating environments where applications can be executed securely. And there is a whole range of technologies that can facilitate. The question is scalability, the question is how do we do it, in a way, that doesn't require a huge amount of security touch points, and where security doesn't become the bottom neck. If we could review all the code, and have all the time in the world to make the changes, maybe that's one model, but even that model would change it wouldn't scale. Because you do have hundreds of developers and you don't to have dozens or hundreds of security consultants. So, the only way this scale is by being able to automate the knowledge and the workflows of the security professionals and the security knowledge, in a way, that developers have access to it every day.
+
+And the world that we go into, which is the world of very fast development, deployments, where you post to production 5, 10, 20 times, 100 times, 1000 of times a day. This is even more important. So, this is some interesting, crazy idea that as we move into this fast deployment, suddenly you can't do security, you know, you can't do thread models. And you cannot do security standards, and you cannot have all these practice, that actually adds a lot of value, not just to security. 
+
+The reality is that we need to do that, we need to be a lot more efficient. The problem was that application security has not focus on scalability. And, for a whole bunch of historical reasons, which is kind of wise not being caught in the whole part of development. So, what we need is really innovative solutions and implications. Also, what we already know works really well. So, that you can really focus on allow the company to accelerate as fast as it can, in a secure way. And by secure, I mean that the risk appetite, and the risk implications of what we are putting into production meet the risk appetite of the business. And even the regulatory compliances, that we actually have to match.
+
+So, this is the person that we want. So, somebody that looks into this thing, and says this is really exciting. And our group allow that, it is actually in the position where is investing and supporting this kind of activities, and want this from us. In a way, we a accountable to do business with delivering this. That is our job, in group security, is to be finding technical innovative human process, in a way, solutions for this problem. And dev teams, and the devops teams, and techops, they support, they want this. So, it's to play. It's in our hands to make this happen. And that's is what is very exciting.
+
+These days the application is actually the whole thing. You actually, when you look at testing, you basically need to test the whole system. You need to test out scaling, you need to test in production, you need to actually be able to view that the application itself, that everything that is required to run the app, from infrastructure to code is itself an application that also needs to be tested, which is also very exciting.
+
+And also, because finally, the final point, the individual also has to be very hands on. We basically need somebody that can walk in the morning and encourage you, and spend time with that person, helping really to map out what is going on, help to fix issues, help write full requests, proposes, be able to be that voice of knowledge in terms of what need to be done. But, then, follow up over before lunch, with architecture, help to design new systems, help to create security by design solutions. And then, presentations to senior management about how application security fits and be able to delegate to teams, and to be able to command a useful amount of mindshare from the network of security champions that we'll create, that will basically be the bridge between the security team and the actual the development, and the team. We do require very strong leadership, a very strong ability to come into pressure and to really be able to delegate and communicate the ideas to a much wider team and players.
+

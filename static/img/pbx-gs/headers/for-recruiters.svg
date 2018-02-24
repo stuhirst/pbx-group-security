@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 1500 208">
+    <defs>
+        <style>
+            .cls-1{fill:url(#linear-gradient);}.cls-11,.cls-2,.cls-5,.cls-6,.cls-8{opacity:0.35;}.cls-11,.cls-12,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8{fill:none;stroke:#fff;stroke-miterlimit:10;}.cls-11,.cls-12,.cls-3,.cls-4,.cls-7{stroke-linecap:round;stroke-width:2px;}.cls-4{stroke-dasharray:0 5.01;}.cls-5,.cls-6{stroke-width:1.5px;}.cls-5{stroke-dasharray:8 8;}.cls-7{stroke-dasharray:0 5.08;}.cls-10,.cls-14,.cls-9{fill:#fff;}.cls-9{opacity:0.4;}.cls-10,.cls-13{opacity:0.25;}.cls-11{stroke-dasharray:0 5;}.cls-12{stroke-dasharray:0 5.14;}
+        </style>
+        <linearGradient id="linear-gradient" x2="1500" y1="103.5" y2="103.5" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#81e3ee"/>
+            <stop offset="1" stop-color="#66accb"/>
+        </linearGradient>
+    </defs>
+    <title>
+        website-headers-v02
+    </title>
+    <rect width="1500" height="219" y="-6" class="cls-1"/>
+    <g class="cls-2">
+        <line x1="1342.39" x2="1342.39" y1="208" y2="208" class="cls-3"/>
+        <line x1="1342.39" x2="1342.39" y1="202.99" y2="25.17" class="cls-4"/>
+        <line x1="1342.39" x2="1342.39" y1="22.66" y2="22.66" class="cls-3"/>
+    </g>
+    <line x1="1203.88" x2="1434.56" y1="151.01" class="cls-5"/>
+    <circle cx="1203.46" cy="150.6" r="36" class="cls-6"/>
+    <g class="cls-2">
+        <circle cx="1203.46" cy="150.6" r="22.65" class="cls-7"/>
+    </g>
+    <circle cx="1342.39" cy="14.83" r="4.17" class="cls-8"/>
+    <path d="M1375.22,98h-9.7V69.9a23.58,23.58,0,1,0-47.16,0V98h-9.71V69.9a33.29,33.29,0,1,1,66.57,0Z" class="cls-9"/>
+    <path d="M1313.51,98H1291v64.14h101.94V98Zm35.71,48a7.11,7.11,0,0,1-14.22,0V130.06a7.11,7.11,0,0,1,14.22,0Z" class="cls-10"/>
+    <rect width="101.94" height="15.26" x="1290.97" y="162.13" class="cls-9"/>
+    <line x1="132.34" x2="385.01" y1="206.98" y2="44.19" class="cls-11"/>
+    <line x1="329.73" x2="186.34" y1="205.74" class="cls-5"/>
+    <circle cx="386.19" cy="42.82" r="19.5" class="cls-6"/>
+    <g class="cls-2">
+        <path d="M398.45,43.06a12.27,12.27,0,1,1-12-12.51A12.27,12.27,0,0,1,398.45,43.06Z" class="cls-12"/>
+    </g>
+    <path d="M289.4,59.24a63.81,63.81,0,1,0,0,90.25A63.81,63.81,0,0,0,289.4,59.24Zm-81.95,81.95a52.08,52.08,0,1,1,73.66,0A52.07,52.07,0,0,1,207.45,141.19Z" class="cls-9"/>
+    <path d="M281.11,67.54a52.08,52.08,0,1,0,0,73.65A52.09,52.09,0,0,0,281.11,67.54Zm-69.35,69.34a46,46,0,1,1,65,0A46,46,0,0,1,211.76,136.88Z" class="cls-10"/>
+    <rect width="25.26" height="11.1" x="177.6" y="152.87" class="cls-10" transform="translate(-56.3 180.91) rotate(-45)"/>
+    <path d="M181.17,167.23l8,8L149.1,215.25a11.11,11.11,0,0,1-15.7,0" class="cls-10"/>
+    <path d="M133.4,215.25h0a11.11,11.11,0,0,1,0-15.71l40-40,7.73,7.73" class="cls-9"/>
+    <g class="cls-13">
+        <circle cx="245.38" cy="91.26" r="17.31" class="cls-14"/>
+    </g>
+    <path d="M275.22,130.39a29.78,29.78,0,0,0-12.17-24,23.21,23.21,0,0,1-35.34,0,29.78,29.78,0,0,0-12.17,24" class="cls-10"/>
+    <path d="M316,77.39a2.76,2.76,0,0,1-2.54-1.69,74.64,74.64,0,0,0-37.15-39,2.75,2.75,0,1,1,2.35-5,80.15,80.15,0,0,1,39.88,41.9A2.73,2.73,0,0,1,316,77.39Z" class="cls-10"/>
+    <path d="M331.11,77.24a2.75,2.75,0,0,1-2.6-1.86,88.69,88.69,0,0,0-52-54.07,2.75,2.75,0,1,1,2-5.12A94.16,94.16,0,0,1,333.71,73.6a2.75,2.75,0,0,1-2.6,3.64Z" class="cls-10"/>
+</svg>
