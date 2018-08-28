@@ -18,7 +18,7 @@ what_will_you_do:
     - Maintain documentation regarding cloud security technologies, configuration and operating procedures
     
 who_are_you:
-    - An AWS rock star who evanglises their passion for cloud security and cloud-first tech
+    - An AWS expert who evanglises their passion for cloud security and cloud-first tech
     - An influencer and advocate for internet-economy products and applications
     - Strong technical knowledge of secure engineering principles
     - Relevant experience in 1000+ FTE Enterprise
